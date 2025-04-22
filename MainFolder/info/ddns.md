@@ -1,9 +1,11 @@
 ## DuckDNS
+
 - DuckDNS es la herramienta que permite que el servidor multimedia montado en la máquina virtual sea accesible desde cualquier lugar del mundo, a través de Internet, usando un nombre de dominio personalizado
 
 ---
 
 ### *¿Por qué se usa DuckDNS en este trabajo?*
+
 - `Acceso remoto sencillo al servidor`
     - DuckDNS permite que puedas acceder al servidor Jellyfin (y también a Grafana o Prometheus si lo necesitas) desde fuera de tu red local, usando un nombre de dominio como mi-servidor.duckdns.org en lugar de memorizar u        na IP pública.
 
@@ -18,3 +20,5 @@
 
 - `Ideal para proyectos autoalojados`
     - Si estás montando servicios que deben ser accesibles remotamente, como un servidor multimedia (Jellyfin), usar DuckDNS te permite compartir el contenido con otros sin complicaciones técnicas
+ 
+![DuckDNS](/MainFolder/img/ddns.png)
