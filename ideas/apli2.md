@@ -1,4 +1,4 @@
-## APLICACIONES PARA EL TFG
+## APLICACIONES UTILIZADAS EN EL TRABAJO
 
 - `DUCKDNS`
   - Se utiliza para asignar un dominio dinámico a la IP de la máquina virtual, permitiendo el acceso remoto al servidor desde cualquier lugar
