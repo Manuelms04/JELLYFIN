@@ -2,7 +2,9 @@
 
 - En este proyecto de TFG, Docker se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual. Aquí te explico con más detalle para qué se usa Docker en este contexto:
 
-### *🐳 ¿Por qué se usa Docker en este trabajo?*
+---
+
+### *¿Por qué se usa Docker en este trabajo?*
 
 - `Aislamiento de servicios`
     - Cada aplicación (Jellyfin, Prometheus, Grafana) corre en su propio contenedor, lo cual evita conflictos entre dependencias y versiones. Esto hace que el sistema sea más estable y fácil de mantener.
@@ -21,3 +23,5 @@
 
 - `Consistencia del entorno`
     - No importa en qué máquina se ejecute el proyecto, los contenedores garantizan que todo funcionará igual siempre que se mantenga el mismo docker-compose.yml
+
+![](/MainFolder/img/docker.png)
