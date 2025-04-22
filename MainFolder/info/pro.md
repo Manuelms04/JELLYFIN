@@ -21,4 +21,6 @@
 - Detección temprana de problemas
     - Gracias a los datos que recopila, puedes detectar comportamientos anómalos en tu servidor (como sobrecarga de CPU, falta de memoria o caídas de servicio) antes de que afecten a los usuarios.
 
+---
+
 ![PROMETHEUS](/MainFolder/img/pro.png)
