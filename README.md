@@ -252,7 +252,6 @@ crontab -e
 - Autor: [MANUEL MORENO SOSA](https://github.com/Manuelms04)
 - Curso: 2º ASIR
 - Centro: IES Rodrigo Caro
-  
 - Fecha: Mayo 2025
 
 
