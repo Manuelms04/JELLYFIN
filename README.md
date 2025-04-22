@@ -19,7 +19,7 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ## Aplicaciones
 
-> [SOFTWARE](/ideas/apli2.md)
+> [SOFTWARE](/MainFolder/info/apli.md)
 
 ---
 
