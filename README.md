@@ -249,10 +249,10 @@ crontab -e
 
 ## 🧾 Créditos y Autor
 
-- Autor: [MANUEL MORENO SOSA](https://github.com/Manuelms04)
-- Curso: 2º ASIR
-- Centro: IES Rodrigo Caro
-- Fecha: Mayo 2025
+- `*Autor:*` [MANUEL MORENO SOSA](https://github.com/Manuelms04)
+- `Curso:` 2º ASIR
+- `Centro:` IES Rodrigo Caro
+- `Fecha:` Mayo 2025
 
 
 
