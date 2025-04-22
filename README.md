@@ -12,9 +12,14 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 > [`VIDEO 2 YT`](https://youtu.be/4RSUCgCIPqo?si=OHxE6xW3Y7VyMilL)
 
-> [`GIT HUB`](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
+ [`GIT HUB`](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
 
 
+---
+
+## JELLYFIN
+
+> [`JELLYFIN`](/MainFolder/info/jelly.md)
 ---
 
 ## Aplicaciones
