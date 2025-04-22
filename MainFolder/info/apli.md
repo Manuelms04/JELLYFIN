@@ -11,3 +11,9 @@
 
 - [`PROMETHEUS`](/MainFolder/info/pro.md)
   - Se utiliza para recolectar y almacenar métricas del sistema, como el rendimiento de los servicios, para que luego Grafana las visualice
+
+
+- [`DUCKDNS`](/MainFolder/info/ddns.md)
+- [`DOCKER`](/MainFolder/info/docker.md)
+- [`GRAFANA`](/MainFolder/info/graf.md)
+- [`PROMETHEUS`](/MainFolder/info/pro.md)
