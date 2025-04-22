@@ -250,7 +250,9 @@ crontab -e
 ## 🧾 Créditos y Autor
 
 - Autor: [MANUEL MORENO SOSA](https://github.com/Manuelms04)
-- Curso: TFG ASIR
+- Curso: 2º ASIR
+- Centro: IES Rodrigo Caro
+  
 - Fecha: 2025
 
 
