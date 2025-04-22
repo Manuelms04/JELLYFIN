@@ -21,6 +21,11 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 > [`SOFTWARE`](/MainFolder/info/apli.md)
 
+> [`DUCKDNS`](/MainFolder/info/ddns.md)
+> [`DOCKER`](/MainFolder/info/docker.md)
+> [`GRAFANA`](/MainFolder/info/graf.md)
+> [`PROMETHEUS`](/MainFolder/info/pro.md)
+
 ---
 
 ## ✅ 1. Requisitos
