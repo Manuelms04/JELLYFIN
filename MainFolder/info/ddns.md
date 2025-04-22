@@ -20,5 +20,7 @@
 
 - `Ideal para proyectos autoalojados`
     - Si estás montando servicios que deben ser accesibles remotamente, como un servidor multimedia (Jellyfin), usar DuckDNS te permite compartir el contenido con otros sin complicaciones técnicas
+
+---
  
 ![DuckDNS](/MainFolder/img/ddns.png)
