@@ -24,4 +24,6 @@
 - `Consistencia del entorno`
     - No importa en qué máquina se ejecute el proyecto, los contenedores garantizan que todo funcionará igual siempre que se mantenga el mismo docker-compose.yml
 
+---
+
 ![DOCKER](/MainFolder/img/docker.png)
