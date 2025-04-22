@@ -21,4 +21,6 @@
 - Alertas y supervisión inteligente
     - Grafana permite configurar alertas personalizadas (por ejemplo, si el uso de CPU supera cierto porcentaje), lo cual es útil para mantener el servidor funcionando correctamente incluso sin supervisión constante.
 
+---
+
 ![GRAFANA](/MainFolder/img/graf.png)
