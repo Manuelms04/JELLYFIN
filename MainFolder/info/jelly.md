@@ -30,10 +30,10 @@
 
 > Jellyfin es el núcleo del proyecto. Todo el entorno se ha construido para alojarlo, supervisarlo y permitir su acceso remoto de forma segura.
 
-- **Docker** → Despliegue rápido, aislado y reproducible.
-- **Prometheus** → Recolección de métricas sobre su estado y uso.
-- **Grafana** → Visualización de datos como uso de CPU, tráfico, etc.
-- **DuckDNS** → Permite acceder a Jellyfin desde fuera de la red.
+- `Docker` → Despliegue rápido, aislado y reproducible.
+- `Prometheus` → Recolección de métricas sobre su estado y uso.
+- `Grafana` → Visualización de datos como uso de CPU, tráfico, etc.
+- `DuckDNS` → Permite acceder a Jellyfin desde fuera de la red.
 
 Con esta infraestructura, se logra un **sistema multimedia completo, profesional y autoalojado**, ideal como entorno de aprendizaje técnico.
 
