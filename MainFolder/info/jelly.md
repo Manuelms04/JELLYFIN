@@ -4,7 +4,7 @@
 
 ---
 
-### *Ventajas de Jellyfin*
+## Ventajas de Jellyfin
 
 - `Software 100% libre y sin restricciones`
     - A diferencia de otras opciones como Plex o Emby, Jellyfin no requiere suscripciones ni cuentas. No tiene funciones bloqueadas ni recopila datos de los usuarios.
