@@ -8,18 +8,18 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ## Referencia 
 
-> [VIDEO 1 YT](https://youtu.be/ZJiUetTJVxw?si=ET_eLOi5_8n4LdUq>)
+> [`VIDEO 1 YT`](https://youtu.be/ZJiUetTJVxw?si=ET_eLOi5_8n4LdUq>)
 
-> [VIDEO 2 YT](https://youtu.be/4RSUCgCIPqo?si=OHxE6xW3Y7VyMilL)
+> [`VIDEO 2 YT`](https://youtu.be/4RSUCgCIPqo?si=OHxE6xW3Y7VyMilL)
 
-> [GIT HUB](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
+> [`GIT HUB`](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
 
 
 ---
 
 ## Aplicaciones
 
-> [SOFTWARE](/MainFolder/info/apli.md)
+> [`SOFTWARE`](/MainFolder/info/apli.md)
 
 ---
 
