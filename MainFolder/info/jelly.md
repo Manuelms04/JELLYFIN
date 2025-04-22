@@ -6,22 +6,22 @@
 
 ### *Ventajas de Jellyfin*
 
-- *Software 100% libre y sin restricciones*
+- `Software 100% libre y sin restricciones`
     - A diferencia de otras opciones como Plex o Emby, Jellyfin no requiere suscripciones ni cuentas. No tiene funciones bloqueadas ni recopila datos de los usuarios.
 
-- ** Organización automática del contenido multimedia**  
+- `Organización automática del contenido multimedia`
     - Escanea las carpetas configuradas, descarga automáticamente carátulas, sinopsis, nombres de capítulos, metadatos, etc. Todo se presenta en una interfaz atractiva.
 
-- ** Acceso desde red local o remotamente**  
+- `Acceso desde red local o remotamente`
     - Gracias a la integración con DuckDNS, es posible acceder al servidor desde cualquier parte del mundo mediante un dominio personalizado.
 
-- ** Compatible con múltiples dispositivos**  
+- `Compatible con múltiples dispositivos`
     - Existen clientes para Android, iOS, navegadores, Smart TVs, y más. También puede reproducirse directamente desde cualquier navegador web.
 
-- ** Fácil despliegue con Docker**  
+- `Fácil despliegue con Docker`
     - Se instala y ejecuta dentro de un contenedor Docker, facilitando la configuración, portabilidad y escalabilidad del servicio.
 
-- ** Privacidad y control total**  
+- `Privacidad y control total`
     - Todo el sistema es autoalojado. El usuario tiene control completo sobre los archivos, configuración, acceso y seguridad.
 
 ---
