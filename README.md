@@ -22,7 +22,7 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 > [`JELLYFIN`](/MainFolder/info/jelly.md)
 ---
 
-## Aplicaciones
+## Aplicaciones Utilizadas
 
 > [`DUCKDNS`](/MainFolder/info/ddns.md)
  
