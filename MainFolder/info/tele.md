@@ -1,4 +1,4 @@
-## ALERTAS DE TELEGRAM
+<h1 align="center">ALERTAS TELEGRAM</h1>
 
 - En este proyecto, las alertas de Telegram son fundamentales para la gestión proactiva del servidor. Gracias a la integración con **Grafana** y **Prometheus**, cualquier anomalía o fallo detectado en el sistema desencadena una notificación instantánea a través de Telegram, lo que permite una intervención rápida y eficiente
 
