@@ -36,42 +36,36 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ## ✅ 1. Requisitos
 
-- **VirtualBox** instalado en el equipo principal.
-- **Imagen ISO de Debian 12** (o Ubuntu Server 22.04).
+- Imagen ISO de Debian 12
 - Máquina Virtual con:
   - 2 CPU
   - 2 GB de RAM
-  - 20 GB de disco duro (dinámico)
-  - Red en modo "puente" o NAT
-- Carpeta compartida (para almacenamiento multimedia).
-- Conexión a Internet (el host proporciona conectividad).
+  - 20 GB de disco (dinámico)
+  - Red en modo puente o NAT
+- Carpeta compartida para almacenamiento multimedia
+- Conexión a Internet
+- Cuenta en [DuckDNS](https://www.duckdns.org/)
+- Cuenta de Telegram y bot creado
 
 ---
 
 ## 💾 2. Instalación del Sistema Operativo
 
-1. Descargar Debian desde [https://www.debian.org/distrib/](https://www.debian.org/distrib/)
+1. Descargar Debian: https://www.debian.org/distrib/
 2. Crear una VM en VirtualBox:
    - Tipo: Linux
    - Versión: Debian (64-bit)
-3. Asociar la ISO e instalar el sistema operativo.
-4. Crear un usuario con permisos `sudo`.
+3. Instalar el sistema operativo en la VM
+4. Crear un usuario con permisos sudo
 
 ---
 
 ## ⚙️ 3. Preparación del Sistema
 
-En la VM, se debe abrir la terminal y ejecutar:
+Ejecutar en la terminal de la VM:
 
 ```bash
-sudo apt update
-```
-
-```bash
-sudo apt upgrade -y
-```
-
-```bash
+sudo apt update && sudo apt upgrade -y
 sudo apt install net-tools htop curl wget git ufw
 ```
 
