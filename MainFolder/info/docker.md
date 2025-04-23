@@ -1,4 +1,4 @@
-## DOCKER
+<h1 align="center">DOCKER</h1>
 
 - En este proyecto, Docker se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual. Lo podemos ordenar mas detalladamente:
 
