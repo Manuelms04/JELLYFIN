@@ -1,4 +1,4 @@
-<h2 align="center">JELLYFIN</h2>
+<h1 align="center">JELLYFIN</h1>
 
 - Jellyfin es la pieza central de este proyecto. Se trata de un servidor multimedia **libre, gratuito y de código abierto** que permite organizar, gestionar y reproducir contenido desde cualquier dispositivo dentro o fuera de la red local. A continuación, se detallan las razones de su uso en este proyecto:
 
