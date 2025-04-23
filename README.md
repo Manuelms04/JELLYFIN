@@ -23,7 +23,12 @@
 
 <h2 align="center">Software Implementado</h2>
 
+| [`JELLYFIN`](/MainFolder/info/jelly.md) | [`DUCKDNS`](/MainFolder/info/ddns.md) | [`DOCKER`](/MainFolder/info/docker.md) |
+|----------------------------------------|--------------------------------------|--------------------------------------|
+| [`PROMETHEUS`](/MainFolder/info/pro.md) | [`GRAFANA`](/MainFolder/info/graf.md) | [`TELEGRAM`](/MainFolder/info/tele.md) |
 
+
+<!---
 > [`JELLYFIN`](/MainFolder/info/jelly.md)
 
 > [`DUCKDNS`](/MainFolder/info/ddns.md)
@@ -31,10 +36,11 @@
 > [`DOCKER`](/MainFolder/info/docker.md)
 
 > [`PROMETHEUS`](/MainFolder/info/pro.md)
->  
+ 
 > [`GRAFANA`](/MainFolder/info/graf.md)
 
 > [`TELEGRAM`](/MainFolder/info/tele.md)
+--->
 
 ---
 
