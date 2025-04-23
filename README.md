@@ -51,7 +51,7 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ---
 
-## 💾 2. Instalación del Sistema Operativo
+## 💾 2. Instalación del Sistema Operativo 💾
 
 1. Descargar Debian: https://www.debian.org/distrib/
 2. Crear una MV en VirtualBox:
@@ -62,7 +62,7 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ---
 
-## ⚙️ 3. Preparación del Sistema
+## ⚙️ 3. Preparación del Sistema ⚙️
 
 Ejecutar en la terminal de la MV:
 
