@@ -119,9 +119,9 @@ docker-compose --version
 
 ## 📦 5. Despliegue de Servicios con Docker Compose 📦
 
-Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.
+*Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.*
 
-### Paso 1: Crear el archivo docker-compose.yml
+- ### Paso 1: Crear el archivo docker-compose.yml
 Dentro de la máquina virtual, crea un directorio para tu proyecto y dentro de él crea el archivo docker-compose.yml:
 
 ```bash
@@ -136,7 +136,7 @@ cd servidor_multimedia
 nano docker-compose.yml
 ```
 
-### Paso 2: Definir los servicios en el archivo docker-compose.yml
+- ### Paso 2: Definir los servicios en el archivo docker-compose.yml
 Agregar lo siguiente en el archivo docker-compose.yml:
 
 ```bash
@@ -184,7 +184,7 @@ networks:
     driver: bridge
 ```
 
-### Paso 3: Configuración de Prometheus
+- ### Paso 3: Configuración de Prometheus
 Crea el archivo `prometheus.yml` que será montado en el contenedor de Prometheus. Este archivo define cómo Prometheus obtiene las métricas de los contenedores y otros servicios
 
 Crear `prometheus.yml` en el mismo directorio
