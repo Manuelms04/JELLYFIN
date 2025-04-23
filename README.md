@@ -32,6 +32,8 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 > [`PROMETHEUS`](/MainFolder/info/pro.md)
 
+> [`TELEGRAM`](/MainFolder/info/tele.md)
+
 ---
 
 ## ✅ 1. Requisitos ✅
