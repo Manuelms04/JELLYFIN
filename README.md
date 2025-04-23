@@ -21,20 +21,17 @@
 
 ---
 
-## JELLYFIN
+## Software Implementado
 
 > [`JELLYFIN`](/MainFolder/info/jelly.md)
----
-
-## Aplicaciones Utilizadas
 
 > [`DUCKDNS`](/MainFolder/info/ddns.md)
  
 > [`DOCKER`](/MainFolder/info/docker.md)
- 
-> [`GRAFANA`](/MainFolder/info/graf.md)
 
 > [`PROMETHEUS`](/MainFolder/info/pro.md)
+>  
+> [`GRAFANA`](/MainFolder/info/graf.md)
 
 > [`TELEGRAM`](/MainFolder/info/tele.md)
 
