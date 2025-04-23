@@ -74,6 +74,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install net-tools htop curl wget git ufw
 ```
 
+---
 
 ## 🐳 4. Instalación de Docker y Docker Compose 🐳
 
@@ -114,8 +115,9 @@ sudo docker --version
 docker-compose --version
 ```
 
+---
 
-## 📦 5. Despliegue de Servicios con Docker Compose
+## 📦 5. Despliegue de Servicios con Docker Compose 📦
 
 Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.
 
@@ -199,6 +201,8 @@ scrape_configs:
 
 Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el archivo docker-compose.yml
 
+---
+
  ## 6. Levantar los contenedores con Docker Compose
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
@@ -213,6 +217,8 @@ docker-compose up -d
 docker ps
 ```
 
+---
+
 ## 📡 7. Acceso a los servicios 📡
 - Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`
 
@@ -220,6 +226,7 @@ docker ps
 
 - Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_MV:3000`. El usuario es `admin` y la contraseña es `admin`
 
+---
 
 ## 🔔 8. Configuración de Alertas con Telegram 🔔
 
@@ -237,25 +244,15 @@ docker ps
 https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${message}
 ```
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-<!---
-
-
-## 8. Configurar Grafana para visualizar métricas de Prometheus
+## 9. Configurar Grafana para visualizar métricas de Prometheus
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
 
-## 🔐 9. Acceso remoto con DuckDNS
+---
+
+## 🌍 10. Acceso Remoto con DuckDNS 🌍
+
 *Crear una cuenta en DuckDNS.*
 
 - Crear un script `duck.sh`:
@@ -281,6 +278,8 @@ crontab -e
 ```bash
 */5 * * * * /ruta/duck.sh >/dev/null 2>&1
 ```
+
+---
 
 ## 🧾 Autor
 
