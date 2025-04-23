@@ -1,6 +1,6 @@
 ## JELLYFIN
 
-- Jellyfin es la pieza central de este proyecto. Se trata de un servidor multimedia **libre, gratuito y de código abierto** que permite organizar, gestionar y reproducir contenido desde cualquier dispositivo dentro o fuera de la red local. A continuación, se detallan las razones de su uso en este TFG:
+- Jellyfin es la pieza central de este proyecto. Se trata de un servidor multimedia **libre, gratuito y de código abierto** que permite organizar, gestionar y reproducir contenido desde cualquier dispositivo dentro o fuera de la red local. A continuación, se detallan las razones de su uso en este proyecto:
 
 ---
 
@@ -26,7 +26,7 @@
 
 ---
 
-##  Papel de Jellyfin en el TFG
+##  Papel de Jellyfin en el Proyecto
 
 > Jellyfin es el núcleo del proyecto. Todo el entorno se ha construido para alojarlo, supervisarlo y permitir su acceso remoto de forma segura.
 
