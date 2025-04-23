@@ -23,4 +23,7 @@
 
 ---
 
-![GRAFANA](/MainFolder/img/graf.png)
+<p align="center">
+  <img src="/MainFolder/img/graf.png" alt="GRAFANA" width="800" height="200">
+</p>
+
