@@ -308,11 +308,6 @@ crontab -e
 
 - *Autor:*
   - [`MANUEL MORENO SOSA`](https://github.com/Manuelms04)
-      - PRUEBA
-          - PRUEBA
-            - PRUEBA
-              - PRUEBA
-                - PRUEBA
 - *Curso:*
   - `2º ASIR`
 - *Centro:*
