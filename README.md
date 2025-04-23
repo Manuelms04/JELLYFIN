@@ -207,7 +207,7 @@ Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el
 
 ---
 
- ## 6. Levantar los contenedores con Docker Compose
+ ## ⬆️ Levantar los contenedores con Docker Compose ⬆️
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
 
