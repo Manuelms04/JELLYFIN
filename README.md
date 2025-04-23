@@ -77,40 +77,6 @@ sudo apt install net-tools htop curl wget git ufw
 
 ## 🐳 4. Instalación de Docker y Docker Compose 🐳
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---
-
-
-
 **Para instalar Docker y Docker Compose, seguir los siguientes pasos:**
 
 - Instalar Docker:
@@ -123,11 +89,11 @@ sudo apt install apt-transport-https ca-certificates curl software-properties-co
 ```
 
 ```bash
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 
 ```bash
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 ```bash
@@ -135,9 +101,8 @@ sudo apt update
 ```
 
 ```bash
-sudo apt install docker-ce
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose
 ```
-
 
 - Verificar que Docker se haya instalado correctamente:
 
@@ -145,19 +110,13 @@ sudo apt install docker-ce
 sudo docker --version
 ```
 
-### Instalar Docker Compose:
-
-```bash
-sudo apt install docker-compose
-```
-
-- Verificar la instalación de Docker Compose:
-
 ```bash
 docker-compose --version
 ```
 
-## 📦 5. Instalación de Jellyfin con Docker
+
+## 📦 5. Despliegue de Servicios con Docker Compose
+
 Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.
 
 ### Paso 1: Crear el archivo docker-compose.yml
@@ -176,7 +135,7 @@ nano docker-compose.yml
 ```
 
 ### Paso 2: Definir los servicios en el archivo docker-compose.yml
-Agrega lo siguiente en el archivo docker-compose.yml:
+Agregar lo siguiente en el archivo docker-compose.yml:
 
 ```bash
 version: "3"
@@ -189,7 +148,7 @@ services:
     ports:
       - "8096:8096"  # Puerto de Jellyfin
     volumes:
-      - /path/to/your/media:/media  # Cambia esta ruta por la carpeta donde se almacenan tus archivos multimedia
+      - /path/to/your/media:/media  # Cambiar esta ruta por la carpeta donde se almacenan los archivos multimedia
       - /path/to/config:/config  # Configuración de Jellyfin
     environment:
       - TZ=Europe/Madrid
@@ -224,9 +183,9 @@ networks:
 ```
 
 ### Paso 3: Configuración de Prometheus
-Crea el archivo `prometheus.yml` que será montado en el contenedor de Prometheus. Este archivo define cómo Prometheus obtiene las métricas de los contenedores y otros servicios.
+Crea el archivo `prometheus.yml` que será montado en el contenedor de Prometheus. Este archivo define cómo Prometheus obtiene las métricas de los contenedores y otros servicios
 
-Ejemplo de `prometheus.yml` básico:
+Crear `prometheus.yml` en el mismo directorio
 
 ```bash
 global:
@@ -238,9 +197,9 @@ scrape_configs:
       - targets: ['jellyfin:8096']
 ```
 
-Guardar este archivo como prometheus.yml en el mismo directorio donde está el archivo docker-compose.yml.
+Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el archivo docker-compose.yml
 
-6. Levantar los contenedores con Docker Compose
+ ## 6. Levantar los contenedores con Docker Compose
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
 
@@ -254,12 +213,44 @@ docker-compose up -d
 docker ps
 ```
 
-## 7. Acceder a los servicios
-- Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`.
+## 📡 7. Acceso a los servicios 📡
+- Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`
 
-- Prometheus: Accede a la interfaz web de Prometheus en `http://IP_DE_LA_MV:9090`.
+- Prometheus: Accede a la interfaz web de Prometheus en `http://IP_DE_LA_MV:9090`
 
-- Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_MV:3000`. El usuario es `admin` y la contraseña es `admin`.
+- Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_MV:3000`. El usuario es `admin` y la contraseña es `admin`
+
+
+## 🔔 8. Configuración de Alertas con Telegram 🔔
+
+1. Crear un bot en Telegram con `@BotFather`
+
+2. Obtener el token del bot
+
+3. Obtener tu ID de usuario en Telegram: `https://api.telegram.org/botTOKEN/getUpdates`
+
+4. Añadir la alerta en Grafana:
+  - Ir a Alerting → Contact points
+  - Añadir un Webhook con esta URL:
+
+```bash
+https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${message}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---
+
 
 ## 8. Configurar Grafana para visualizar métricas de Prometheus
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
