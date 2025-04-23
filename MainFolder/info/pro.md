@@ -1,4 +1,4 @@
-## PROMETHEUS
+<h1 align="center">PROMETHEUS</h1>
 
 - Prometheus es el componente encargado de recolectar y almacenar métricas del servidor multimedia y sus servicios, permitiendo una monitorización continua y detallada de su estado y rendimiento
 
