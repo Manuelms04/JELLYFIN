@@ -1,4 +1,4 @@
-# 🎓 TFG ASIR 🎓
+<h1 align="center">🎓 TFG ASIR 🎓</h1>
 # **IMPLEMENTACIÓN DE UN SERVIDOR MULTIMEDIA CON JELLYFIN**
 
 ---
