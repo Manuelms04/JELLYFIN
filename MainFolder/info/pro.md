@@ -23,4 +23,8 @@
 
 ---
 
-![PROMETHEUS](/MainFolder/img/pro.png)
+<p align="center">
+  <img src="/MainFolder/img/pro.png" alt="PROMETHEUS" width="800" height="325">
+</p>
+
+
