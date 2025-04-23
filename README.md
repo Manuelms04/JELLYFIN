@@ -207,7 +207,7 @@ Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el
 
 ---
 
- ## ⬆️ Levantar los contenedores con Docker Compose ⬆️
+ ## ⬆️ 7. Levantar los contenedores con Docker Compose ⬆️
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
 
@@ -250,7 +250,7 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 ---
 
-## 9. Configurar Grafana para visualizar métricas de Prometheus
+## 9. 📊 Configurar Grafana para visualizar métricas de Prometheus 📊
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
 
 ---
