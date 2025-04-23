@@ -47,8 +47,7 @@
 
 ---
 
-<h2 align="center">  </h2>
- ✅ 1. Requisitos ✅
+<h2 align="center">  ✅ 1. Requisitos ✅ </h2>
 
 - Imagen ISO de Debian 12
 - Máquina Virtual con:
