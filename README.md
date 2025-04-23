@@ -304,7 +304,7 @@ crontab -e
 
 ---
 
-<h2 align="center"> 🧾 Autor </h2>
+<h2 align="center"> 🧾 Autor 🧾 </h2>
 
 - *Autor:*
   - [`MANUEL MORENO SOSA`](https://github.com/Manuelms04)
