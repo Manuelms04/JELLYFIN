@@ -26,4 +26,7 @@
 
 ---
 
-![DOCKER](/MainFolder/img/docker.png)
+<p align="center">
+  <img src="/MainFolder/img/docker.png" alt="DOCKER" width="700" height="350">
+</p>
+
