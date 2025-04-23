@@ -34,7 +34,7 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 
 ---
 
-## ✅ 1. Requisitos
+## ✅ 1. Requisitos ✅
 
 - Imagen ISO de Debian 12
 - Máquina Virtual con:
@@ -52,20 +52,23 @@ Este proyecto consiste en la implementación de un servidor multimedia utilizand
 ## 💾 2. Instalación del Sistema Operativo
 
 1. Descargar Debian: https://www.debian.org/distrib/
-2. Crear una VM en VirtualBox:
+2. Crear una MV en VirtualBox:
    - Tipo: Linux
    - Versión: Debian (64-bit)
-3. Instalar el sistema operativo en la VM
+3. Instalar el sistema operativo en la MV
 4. Crear un usuario con permisos sudo
 
 ---
 
 ## ⚙️ 3. Preparación del Sistema
 
-Ejecutar en la terminal de la VM:
+Ejecutar en la terminal de la MV:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
+
+```bash
 sudo apt install net-tools htop curl wget git ufw
 ```
 
@@ -216,11 +219,11 @@ docker ps
 ```
 
 ## 7. Acceder a los servicios
-- Jellyfin: Accede desde el navegador en `http://IP_DE_LA_VM:8096`.
+- Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`.
 
-- Prometheus: Accede a la interfaz web de Prometheus en `http://IP_DE_LA_VM:9090`.
+- Prometheus: Accede a la interfaz web de Prometheus en `http://IP_DE_LA_MV:9090`.
 
-- Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_VM:3000`. El usuario es `admin` y la contraseña es `admin`.
+- Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_MV:3000`. El usuario es `admin` y la contraseña es `admin`.
 
 ## 8. Configurar Grafana para visualizar métricas de Prometheus
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
