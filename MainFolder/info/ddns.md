@@ -1,4 +1,4 @@
-<h1 align="center">DUCKDNS</h1>
+<h1 align="center">DuckDNS</h1>
 
 - DuckDNS es la herramienta que permite que el servidor multimedia montado en la máquina virtual sea accesible desde cualquier lugar del mundo, a través de Internet, usando un nombre de dominio personalizado
 
