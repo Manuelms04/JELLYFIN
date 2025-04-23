@@ -75,7 +75,41 @@ sudo apt install net-tools htop curl wget git ufw
 ```
 
 
-## 📦 4. Instalación de Docker
+## 🐳 4. Instalación de Docker y Docker Compose 🐳
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---
+
+
 
 **Para instalar Docker y Docker Compose, seguir los siguientes pasos:**
 
