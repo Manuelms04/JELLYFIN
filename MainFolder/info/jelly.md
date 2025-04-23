@@ -51,4 +51,7 @@ Puedes encontrar la configuración de Docker en el archivo `docker-compose.yml` 
 
 Asegúrate de tener configuradas correctamente las rutas de almacenamiento multimedia y las carpetas de configuración en tu contenedor.
 
-![JELLYFIN](/MainFolder/img/jelly.png)
+<p align="center">
+  <img src="/MainFolder/img/jelly.png" alt="JELLYFIN">
+</p>
+
