@@ -1,6 +1,6 @@
 ## DOCKER
 
-- En este proyecto, Docker se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual. Aquí te explico con más detalle para qué se usa Docker en este contexto:
+- En este proyecto, Docker se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual. Lo podemos ordenar mas detalladamente:
 
 ---
 
