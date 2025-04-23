@@ -1,4 +1,4 @@
-## GRAFANA
+<h1 align="center">JGRAFANA</h1>
 
 - Grafana es la herramienta que permite visualizar, analizar y supervisar de forma gráfica los datos recogidos por Prometheus sobre el estado y rendimiento del servidor multimedia y sus servicios
 
