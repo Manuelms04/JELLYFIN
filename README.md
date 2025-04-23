@@ -3,21 +3,7 @@
 
 ---
 
-<h1 align="center"> 📘 Introducción 📘 </h1>
-
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 45%;">
-    <ul>
-      <li>Este proyecto consiste en la implementación de un servidor multimedia con Jellyfin dentro de una máquina virtual con Debian, utilizando contenedores gestionados mediante Docker y Docker Compose. El sistema incluye un entorno de monitorización con Prometheus y Grafana, lo que permite supervisar su estado en tiempo real.</li>
-    </ul>
-  </div>
-
-  <div style="width: 45%;">
-    <ul>
-      <li>Además, se ha configurado el acceso remoto mediante DuckDNS, garantizando la conexión externa sin necesidad de IP fija. Como valor añadido, se ha integrado un sistema de alertas automáticas por Telegram, que notifica cualquier fallo o anomalía detectada, permitiendo una gestión proactiva del servidor y aumentando su fiabilidad.</li>
-    </ul>
-  </div>
-</div>
+<h2 align="center"> 📘 Introducción 📘 </h2>
 
 
 - Este proyecto consiste en la implementación de un servidor multimedia con Jellyfin dentro de una máquina virtual con Debian, utilizando contenedores gestionados mediante Docker y Docker Compose. El sistema incluye un entorno de monitorización con Prometheus y Grafana, lo que permite supervisar su estado en tiempo real.
