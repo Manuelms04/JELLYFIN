@@ -258,7 +258,7 @@ crontab -e
 */5 * * * * /ruta/duck.sh >/dev/null 2>&1
 ```
 
-## 🧾 Créditos y Autor
+## 🧾 Autor
 
 - *Autor:*
   - [`MANUEL MORENO SOSA`](https://github.com/Manuelms04)
