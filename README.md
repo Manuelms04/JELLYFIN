@@ -1,15 +1,19 @@
 <h1 align="center">🎓 TFG ASIR 🎓</h1>
 <h1 align="center"> IMPLEMENTACIÓN DE UN SERVIDOR MULTIMEDIA CON JELLYFIN </h1>
 
+
 ---
 
-<h2 align="center"> 📘 Introducción 📘 </h2>
 
+<h2 align="center"> 📘 Introducción 📘 </h2>
 
 - Este proyecto consiste en la implementación de un servidor multimedia con Jellyfin dentro de una máquina virtual con Debian, utilizando contenedores gestionados mediante Docker y Docker Compose. El sistema incluye un entorno de monitorización con Prometheus y Grafana, lo que permite supervisar su estado en tiempo real.
 
 - Además, se ha configurado el acceso remoto mediante DuckDNS, garantizando la conexión externa sin necesidad de IP fija. Como valor añadido, se ha integrado un sistema de alertas automáticas por Telegram, que notifica cualquier fallo o anomalía detectada, permitiendo una gestión proactiva del servidor y aumentando su fiabilidad
+
+
 ---
+
 
 ## Referencia 
 
@@ -21,6 +25,7 @@
 
 
 ---
+
 
 <h2 align="center"> 💻 Software Implementado 💻 </h2>
 
@@ -40,25 +45,10 @@
 </div>
 
 
-
-
-<!---
-> [`JELLYFIN`](/MainFolder/info/jelly.md)
-
-> [`DUCKDNS`](/MainFolder/info/ddns.md)
- 
-> [`DOCKER`](/MainFolder/info/docker.md)
-
-> [`PROMETHEUS`](/MainFolder/info/pro.md)
- 
-> [`GRAFANA`](/MainFolder/info/graf.md)
-
-> [`TELEGRAM`](/MainFolder/info/tele.md)
---->
-
 ---
 
-## ✅ 1. Requisitos ✅
+<h2 align="center">  </h2>
+ ✅ 1. Requisitos ✅
 
 - Imagen ISO de Debian 12
 - Máquina Virtual con:
@@ -71,9 +61,10 @@
 - Cuenta en [DuckDNS](https://www.duckdns.org/)
 - Cuenta de Telegram y bot creado
 
+
 ---
 
-## 💾 2. Instalación del Sistema Operativo 💾
+<h2 align="center"> 💾 2. Instalación del Sistema Operativo 💾 </h2>
 
 1. Descargar Debian: https://www.debian.org/distrib/
 2. Crear una MV en VirtualBox:
@@ -82,9 +73,10 @@
 3. Instalar el sistema operativo en la MV
 4. Crear un usuario con permisos sudo
 
+
 ---
 
-## ⚙️ 3. Preparación del Sistema ⚙️
+<h2 align="center"> ⚙️ 3. Preparación del Sistema ⚙️ </h2>
 
 Ejecutar en la terminal de la MV:
 
@@ -96,9 +88,10 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install net-tools htop curl wget git ufw
 ```
 
+
 ---
 
-## 🐳 4. Instalación de Docker y Docker Compose 🐳
+<h2 align="center"> 🐳 4. Instalación de Docker y Docker Compose 🐳 </h2>
 
 **Para instalar Docker y Docker Compose, seguir los siguientes pasos:**
 
@@ -137,9 +130,10 @@ sudo docker --version
 docker-compose --version
 ```
 
+
 ---
 
-## 📦 5. Despliegue de Servicios con Docker Compose 📦
+<h2 align="center"> 📦 5. Despliegue de Servicios con Docker Compose 📦 </h2>
 
 *Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.*
 
@@ -223,9 +217,10 @@ scrape_configs:
 
 Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el archivo docker-compose.yml
 
+
 ---
 
- ## ⬆️ 7. Levantar los contenedores con Docker Compose ⬆️
+<h2 align="center"> ⬆️ 6. Levantar los contenedores con Docker Compose ⬆️ </h2>
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
 
@@ -239,18 +234,21 @@ docker-compose up -d
 docker ps
 ```
 
+
 ---
 
-## 📡 7. Acceso a los servicios 📡
+<h2 align="center"> 📡 7. Acceso a los servicios 📡 </h2>
+
 - Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`
 
 - Prometheus: Accede a la interfaz web de Prometheus en `http://IP_DE_LA_MV:9090`
 
 - Grafana: Accede a la interfaz web de Grafana en `http://IP_DE_LA_MV:3000`. El usuario es `admin` y la contraseña es `admin`
 
+
 ---
 
-## 🔔 8. Configuración de Alertas con Telegram 🔔
+<h2 align="center"> 🔔 8. Configuración de Alertas con Telegram 🔔 </h2>
 
 1. Crear un bot en Telegram con `@BotFather`
 
@@ -266,14 +264,17 @@ docker ps
 https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${message}
 ```
 
+
 ---
 
-## 9. 📊 Configurar Grafana para visualizar métricas de Prometheus 📊
+<h2 align="center"> 9. 📊 Configurar Grafana para visualizar métricas de Prometheus 📊 </h2>
+
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
 
+
 ---
 
-## 🌍 10. Acceso Remoto con DuckDNS 🌍
+<h2 align="center"> 🌍 10. Acceso Remoto con DuckDNS 🌍 </h2>
 
 *Crear una cuenta en DuckDNS.*
 
@@ -301,9 +302,10 @@ crontab -e
 */5 * * * * /ruta/duck.sh >/dev/null 2>&1
 ```
 
+
 ---
 
-## 🧾 Autor
+<h2 align="center"> 🧾 Autor </h2>
 
 - *Autor:*
   - [`MANUEL MORENO SOSA`](https://github.com/Manuelms04)
