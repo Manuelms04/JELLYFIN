@@ -21,7 +21,7 @@
 
 ---
 
-<p align="center"> ## Software Implementado </p>
+<h2 align="center">Software Implementado</h2>
 
 
 > [`JELLYFIN`](/MainFolder/info/jelly.md)
