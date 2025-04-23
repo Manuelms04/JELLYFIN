@@ -47,7 +47,7 @@
 
 ---
 
-<h2 align="center">  ✅ 1. Requisitos ✅ </h2>
+<h2 align="center">  ✅ Requisitos ✅ </h2>
 
 - Imagen ISO de Debian 12
 - Máquina Virtual con:
@@ -63,7 +63,7 @@
 
 ---
 
-<h2 align="center"> 💾 2. Instalación del Sistema Operativo 💾 </h2>
+<h2 align="center"> 💾 Instalación del Sistema Operativo 💾 </h2>
 
 1. Descargar Debian: https://www.debian.org/distrib/
 2. Crear una MV en VirtualBox:
@@ -75,7 +75,7 @@
 
 ---
 
-<h2 align="center"> ⚙️ 3. Preparación del Sistema ⚙️ </h2>
+<h2 align="center"> ⚙️ Preparación del Sistema ⚙️ </h2>
 
 Ejecutar en la terminal de la MV:
 
@@ -90,7 +90,7 @@ sudo apt install net-tools htop curl wget git ufw
 
 ---
 
-<h2 align="center"> 🐳 4. Instalación de Docker y Docker Compose 🐳 </h2>
+<h2 align="center"> 🐳 Instalación de Docker y Docker Compose 🐳 </h2>
 
 **Para instalar Docker y Docker Compose, seguir los siguientes pasos:**
 
@@ -132,7 +132,7 @@ docker-compose --version
 
 ---
 
-<h2 align="center"> 📦 5. Despliegue de Servicios con Docker Compose 📦 </h2>
+<h2 align="center"> 📦 Despliegue de Servicios con Docker Compose 📦 </h2>
 
 *Ahora vamos a crear los contenedores de Jellyfin, Prometheus y Grafana usando Docker.*
 
@@ -219,7 +219,7 @@ Guardar este archivo como `prometheus.yml` en el mismo directorio donde está el
 
 ---
 
-<h2 align="center"> ⬆️ 6. Levantar los contenedores con Docker Compose ⬆️ </h2>
+<h2 align="center"> ⬆️ Levantar los contenedores con Docker Compose ⬆️ </h2>
 
 - Una vez que todo esté configurado, usa Docker Compose para levantar los contenedores:
 
@@ -236,7 +236,7 @@ docker ps
 
 ---
 
-<h2 align="center"> 📡 7. Acceso a los servicios 📡 </h2>
+<h2 align="center"> 📡 Acceso a los servicios 📡 </h2>
 
 - Jellyfin: Accede desde el navegador en `http://IP_DE_LA_MV:8096`
 
@@ -247,7 +247,7 @@ docker ps
 
 ---
 
-<h2 align="center"> 🔔 8. Configuración de Alertas con Telegram 🔔 </h2>
+<h2 align="center"> 🔔 Configuración de Alertas con Telegram 🔔 </h2>
 
 1. Crear un bot en Telegram con `@BotFather`
 
@@ -266,14 +266,14 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 ---
 
-<h2 align="center"> 9. 📊 Configurar Grafana para visualizar métricas de Prometheus 📊 </h2>
+<h2 align="center"> 📊 Configurar Grafana para visualizar métricas de Prometheus 📊 </h2>
 
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
 
 
 ---
 
-<h2 align="center"> 🌍 10. Acceso Remoto con DuckDNS 🌍 </h2>
+<h2 align="center"> 🌍 Acceso Remoto con DuckDNS 🌍 </h2>
 
 *Crear una cuenta en DuckDNS.*
 
