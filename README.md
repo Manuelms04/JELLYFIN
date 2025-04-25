@@ -319,7 +319,7 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 <h3>1. 🔧 Instalación de Samba</h3>
 
-Ejecutar los siguientes comandos en la terminal de la máquina virtual Debian:
+*Ejecutar los siguientes comandos en la terminal de la máquina virtual Debian:*
 
 ```bash
 sudo apt update
@@ -327,12 +327,79 @@ sudo apt install samba -y
 ```
 
 <h3>2. 📁 Crear Carpeta Compartida</h3>
-Crear una carpeta destinada al almacenamiento compartido de archivos multimedia:
+
+*Crear una carpeta destinada al almacenamiento compartido de archivos multimedia:*
 
 ```bash
 sudo mkdir -p /home/usuario/MediaCompartida
 sudo chmod -R 775 /home/usuario/MediaCompartida
 ```
+
+<h3>3. 🔐 Crear Usuario Samba</h3>
+
+*Añadir un usuario Samba para acceder desde otros dispositivos de la red:*
+
+```bash
+sudo smbpasswd -a tu_usuario
+```
+
+*Este será el usuario con el que se accede desde Windows u otros sistemas*
+
+<h3>4. 📝 Configuración del archivo smb.conf</h3>
+
+*Editar el archivo de configuración de Samba:*
+
+```bash
+sudo nano /etc/samba/smb.conf
+```
+
+*Y añadir al final del archivo:*
+
+```bash
+[Media]
+   path = /home/usuario/MediaCompartida
+   writable = yes
+   browseable = yes
+   valid users = tu_usuario
+   create mask = 0664
+   directory mask = 0775
+```
+
+<h3>5. 🔁 Reiniciar el servicio Samba</h3>
+
+```bash
+sudo systemctl restart smbd
+```
+
+<h3>6. 📡 Acceder desde otros equipos</h3>
+
+*Desde otro ordenador con Windows, abre el explorador de archivos e introduce:*
+
+```bash
+\\IP_DE_LA_MV\Media
+```
+
+*Introduce las credenciales del usuario Samba cuando lo solicite*
+
+<h3>🎯 BONUS: Integrar con Jellyfin</h3>
+Para que Jellyfin acceda a esta carpeta compartida como su biblioteca multimedia, modificar el volumen en el archivo `docker-compose.yml`:
+
+```bash
+volumes:
+  - /home/usuario/MediaCompartida:/media
+```
+
+*De esta forma, todo el contenido que se suba por Samba aparecerá automáticamente en Jellyfin para su reproducción o gestión*
+
+
+
+
+
+
+
+
+
+
 
 ---
 ---
