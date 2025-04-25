@@ -44,6 +44,7 @@
   </table>
 </div>
 
+> [`SAMBA`](/MainFolder/info/samba.md)
 
 ---
 
