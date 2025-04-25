@@ -90,6 +90,39 @@ sudo apt install net-tools htop curl wget git ufw
 
 ---
 
+
+<h2 align="center"> 🌍 Acceso Remoto con DuckDNS 🌍 </h2>
+
+*Crear una cuenta en DuckDNS.*
+
+- Crear un script `duck.sh`:
+
+```bash
+echo url="https://www.duckdns.org/update?domains=TU_DOMINIO&token=TU_TOKEN&ip=" | curl -k -o duck.log -K -
+```
+
+- Asignar permisos para que el script sea ejecutable:
+
+```bash
+chmod 700 duck.sh
+```
+
+- Añadir al crontab para ejecutar el script cada 5 minutos:
+
+```bash
+crontab -e
+```
+
+*Se añade la siguiente linea*
+
+```bash
+*/5 * * * * /ruta/duck.sh >/dev/null 2>&1
+```
+
+
+---
+
+
 <h2 align="center"> 🐳 Instalación de Docker y Docker Compose 🐳 </h2>
 
 **Para instalar Docker y Docker Compose, seguir los siguientes pasos:**
@@ -233,8 +266,8 @@ docker-compose up -d
 docker ps
 ```
 
-
 ---
+
 
 <h2 align="center"> 📡 Acceso a los servicios 📡 </h2>
 
@@ -266,6 +299,7 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 ---
 
+
 <h2 align="center"> 📊 Configurar Grafana para visualizar métricas de Prometheus 📊 </h2>
 
 - En Grafana, ve a `Configuration` y selecciona `Data Sources`. Agrega Prometheus como fuente de datos y usa la URL: `http://prometheus:9090`. Luego, crea tus dashboards personalizados.
@@ -273,36 +307,6 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 ---
 
-<h2 align="center"> 🌍 Acceso Remoto con DuckDNS 🌍 </h2>
-
-*Crear una cuenta en DuckDNS.*
-
-- Crear un script `duck.sh`:
-
-```bash
-echo url="https://www.duckdns.org/update?domains=TU_DOMINIO&token=TU_TOKEN&ip=" | curl -k -o duck.log -K -
-```
-
-- Asignar permisos para que el script sea ejecutable:
-
-```bash
-chmod 700 duck.sh
-```
-
-- Añadir al crontab para ejecutar el script cada 5 minutos:
-
-```bash
-crontab -e
-```
-
-*Se añade la siguiente linea*
-
-```bash
-*/5 * * * * /ruta/duck.sh >/dev/null 2>&1
-```
-
-
----
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
 
