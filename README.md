@@ -382,6 +382,7 @@ sudo systemctl restart smbd
 *Introduce las credenciales del usuario Samba cuando lo solicite*
 
 <h3>🎯 BONUS: Integrar con Jellyfin</h3>
+
 Para que Jellyfin acceda a esta carpeta compartida como su biblioteca multimedia, modificar el volumen en el archivo `docker-compose.yml`:
 
 ```bash
