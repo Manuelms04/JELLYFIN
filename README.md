@@ -306,6 +306,38 @@ https://api.telegram.org/bot<TU_TOKEN>/sendMessage?chat_id=<TU_ID>&text=${messag
 
 
 ---
+---
+---
+---
+
+
+<h2 align="center">📂 Integración de Samba para Compartir Archivos Multimedia 📂</h2>
+
+<p align="center">Para facilitar el acceso y la carga de archivos multimedia desde otros equipos de la red local, se ha integrado un sistema de compartición de carpetas mediante <strong>Samba</strong>.</p>
+
+---
+
+<h3>1. 🔧 Instalación de Samba</h3>
+
+Ejecutar los siguientes comandos en la terminal de la máquina virtual Debian:
+
+```bash
+sudo apt update
+sudo apt install samba -y
+```
+
+<h3>2. 📁 Crear Carpeta Compartida</h3>
+Crear una carpeta destinada al almacenamiento compartido de archivos multimedia:
+
+```bash
+sudo mkdir -p /home/usuario/MediaCompartida
+sudo chmod -R 775 /home/usuario/MediaCompartida
+```
+
+---
+---
+---
+---
 
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
