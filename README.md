@@ -398,6 +398,86 @@ volumes:
 
 
 
+---
+---
+---
+---
+
+
+
+
+
+
+# Configuración de Jellyfin Seguro (HTTPS) con Caddy en Debian 12 y DuckDNS
+
+Guía para configurar un servidor Jellyfin accesible de forma segura mediante HTTPS utilizando **Caddy Server** y un dominio de DuckDNS
+
+**Método utilizado: Caddy Server (fácil y gratuito)**
+
+---
+
+## Requisitos Previos
+- Sistema operativo Debian 12 operativo
+- Servidor Jellyfin instalado en el puerto `8096`
+- Dominio configurado en DuckDNS (por ejemplo, `manuelms.duckdns.org`) y correctamente actualizado
+
+---
+
+## Paso 1: Instalación de Caddy Server en Debian 12
+
+Ejecutar los siguientes comandos:
+
+```bash
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+sudo apt update
+sudo apt install caddy
+```
+Caddy se instalará desde el repositorio oficial
+
+## Paso 2: Configuración de Caddy como Proxy Inverso para Jellyfin
+Editar el archivo de configuración de Caddy:
+
+```bash
+sudo nano /etc/caddy/Caddyfile
+```
+
+Agregar el siguiente contenido:
+
+```bash
+manuelms.duckdns.org {
+    reverse_proxy localhost:8096
+}
+```
+
+Guardar los cambios (`Ctrl+O`, `Enter`) y salir (`Ctrl+X`).
+
+## Paso 3: Recargar Caddy para aplicar los cambios
+```bash
+sudo systemctl reload caddy
+```
+
+Caddy solicitará automáticamente un certificado SSL gratuito a Let's Encrypt, configurará HTTPS y gestionará la renovación automática del certificado
+
+## Paso 4: Acceso al servidor Jellyfin
+Para acceder al servidor Jellyfin de manera segura, ingresar en un navegador:
+
+```bash
+https://manuelms.duckdns.org
+```
+
+*La conexión se realizará a través de HTTPS*
+
+- Consideraciones Finales
+  - Es necesario abrir en el router los puertos 80 (HTTP) y 443 (HTTPS) redirigiéndolos hacia el servidor Debian
+
+  - DuckDNS debe estar actualizado correctamente para asegurar la validez del certificado SSL
+
+  - Caddy gestiona automáticamente tanto la adquisición como la renovación de certificados SSL
+
+  - Este método es completamente gratuito y requiere un mínimo mantenimiento
+
 
 
 
@@ -407,6 +487,12 @@ volumes:
 ---
 ---
 ---
+
+
+
+
+
+
 
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
