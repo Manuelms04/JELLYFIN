@@ -27,5 +27,5 @@
 ---
 
 <p align="center">
-  <img src="/MainFolder/img/caddy.png" alt="CADDY" width="700" height="350">
+  <img src="/MainFolder/img/caddy.png" alt="CADDY" width="800" height="200">
 </p>
