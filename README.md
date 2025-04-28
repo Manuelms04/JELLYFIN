@@ -408,77 +408,158 @@ volumes:
 
 
 
-# Configuración de Jellyfin Seguro (HTTPS) con Caddy en Debian 12 y DuckDNS
+# Configuración de Jellyfin Seguro (HTTPS) usando Caddy Server en Docker Compose (Debian 12 + DuckDNS)
 
-Guía para configurar un servidor Jellyfin accesible de forma segura mediante HTTPS utilizando **Caddy Server** y un dominio de DuckDNS
-
-**Método utilizado: Caddy Server (fácil y gratuito)**
+Guía para desplegar un servidor Jellyfin accesible de forma segura mediante HTTPS utilizando **Caddy Server** a través de **Docker Compose**, en conjunto con un dominio de **DuckDNS**.
 
 ---
 
 ## Requisitos Previos
-- Sistema operativo Debian 12 operativo
-- Servidor Jellyfin instalado en el puerto `8096`
-- Dominio configurado en DuckDNS (por ejemplo, `manuelms.duckdns.org`) y correctamente actualizado
+
+- Sistema operativo Debian 12 funcional.
+- Servidor Jellyfin instalado (o accesible) en el puerto `8096`.
+- Dominio configurado en DuckDNS (por ejemplo, `manuelms.duckdns.org`) y correctamente actualizado.
+- Docker y Docker Compose instalados en el sistema.
+- Puertos **80** y **443** abiertos en el firewall y redirigidos en el router hacia el servidor Debian.
 
 ---
 
-## Paso 1: Instalación de Caddy Server en Debian 12
+# Despliegue de Caddy Server usando Docker Compose
 
-Ejecutar los siguientes comandos:
+---
+
+## Paso 1: Crear la estructura de directorios
+
+Crear una carpeta para alojar la configuración de Caddy:
 
 ```bash
-sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-sudo apt update
-sudo apt install caddy
+mkdir -p /home/usuario/caddy
+cd /home/usuario/caddy
 ```
-Caddy se instalará desde el repositorio oficial
 
-## Paso 2: Configuración de Caddy como Proxy Inverso para Jellyfin
-Editar el archivo de configuración de Caddy:
+Paso 2: Crear el archivo Caddyfile
+Crear un archivo llamado Caddyfile:
 
 ```bash
-sudo nano /etc/caddy/Caddyfile
+nano Caddyfile
 ```
 
 Agregar el siguiente contenido:
 
 ```bash
 manuelms.duckdns.org {
-    reverse_proxy localhost:8096
+    reverse_proxy host.docker.internal:8096
 }
 ```
 
-Guardar los cambios (`Ctrl+O`, `Enter`) y salir (`Ctrl+X`).
+Notas:
 
-## Paso 3: Recargar Caddy para aplicar los cambios
+En sistemas Linux, si host.docker.internal no está disponible, puede ser necesario usar la IP del host (172.17.0.1) o la IP privada del servidor.
+
+El proxy se encarga de redirigir las solicitudes HTTPS al servidor Jellyfin en el puerto 8096.
+
+Paso 3: Crear el archivo docker-compose.yml
+Crear un archivo llamado docker-compose.yml:
+
 ```bash
-sudo systemctl reload caddy
+nano docker-compose.yml
 ```
 
-Caddy solicitará automáticamente un certificado SSL gratuito a Let's Encrypt, configurará HTTPS y gestionará la renovación automática del certificado
+Agregar el siguiente contenido:
 
-## Paso 4: Acceso al servidor Jellyfin
-Para acceder al servidor Jellyfin de manera segura, ingresar en un navegador:
+```bash
+version: "3.8"
+
+services:
+  caddy:
+    image: caddy:latest
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - caddy_net
+
+networks:
+  caddy_net:
+
+volumes:
+  caddy_data:
+  caddy_config:
+```
+
+### Descripción de la configuración:
+
+
+<div align="center">
+  <table>
+    <tr>
+      <td><strong>ELEMENTO</strong></td>
+      <td><strong>DESCRIPCIÓN</strong></td>
+    </tr>
+    <tr>
+      <td><code>caddy</code></td>
+      <td>Servicio principal que ejecuta el contenedor de Caddy </td>
+    </tr>
+    <tr>
+      <td><code>ports</code></td>
+      <td>Publica los puertos 80 y 443 del contenedor al host </td>
+    </tr>
+    <tr>
+      <td><code>volumes</code></td>
+      <td>Permite la persistencia de configuraciones y certificados, por ejemplo /data o /config </td>
+    </tr>
+    <tr>
+      <td><code>networks</code></td>
+      <td>Crea una red interna para facilitar la comunicación entre contenedores, como caddy_net </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+Paso 4: Lanzar Caddy con Docker Compose
+Desde el mismo directorio donde se encuentran Caddyfile y docker-compose.yml:
+
+```bash
+docker compose up -d
+```
+
+Esto descargará la imagen oficial de Caddy, levantará el contenedor, y configurará automáticamente HTTPS utilizando Let's Encrypt
+
+Acceso al servidor Jellyfin
+Una vez desplegado Caddy Server, Jellyfin estará accesible de manera segura mediante:
 
 ```bash
 https://manuelms.duckdns.org
 ```
 
-*La conexión se realizará a través de HTTPS*
+Caddy solicitará automáticamente un certificado SSL válido y se encargará de su renovación periódica
 
-- Consideraciones Finales
-  - Es necesario abrir en el router los puertos 80 (HTTP) y 443 (HTTPS) redirigiéndolos hacia el servidor Debian
+### Consideraciones Adicionales
+  - Es fundamental que DuckDNS actualice correctamente la IP pública para evitar problemas con el certificado SSL
 
-  - DuckDNS debe estar actualizado correctamente para asegurar la validez del certificado SSL
+  - Jellyfin debe estar corriendo y accesible en el puerto 8096 desde la perspectiva de Caddy
 
-  - Caddy gestiona automáticamente tanto la adquisición como la renovación de certificados SSL
+  - En caso de que Jellyfin también esté en un contenedor, se recomienda conectarlo a la red caddy_net usando Docker Compose
 
-  - Este método es completamente gratuito y requiere un mínimo mantenimiento
+*Si se requiere ver los registros de Caddy para solucionar problemas:*
 
+```bash
+docker compose logs -f caddy
+```
 
+*Para detener el servicio:*
+
+```bash
+docker compose down
+```
 
 
 
