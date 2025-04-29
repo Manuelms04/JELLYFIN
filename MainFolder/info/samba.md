@@ -24,6 +24,6 @@
 ---
 
 <p align="center">
-  <img src="/MainFolder/img/samba.png" alt="SAMBA" width="800" height="200">
+  <img src="/MainFolder/img/samba.png" alt="SAMBA" width="700" height="350">
 </p>
 
