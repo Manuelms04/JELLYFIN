@@ -89,7 +89,7 @@
 ---
 
 
-## Referencia 
+<h2 align="center"> 🔗 Referencias 🔗 </h2>
 
 > [`VIDEO 1 YT`](https://youtu.be/ZJiUetTJVxw?si=ET_eLOi5_8n4LdUq>)
 
@@ -101,16 +101,23 @@
 ---
 
 
+<h2 align="center"> 🧾 Autor 🧾 </h2>
+
+- *Autor:*
+  - [`MANUEL MORENO SOSA`](https://github.com/Manuelms04)
+- *Curso:*
+  - `2º ASIR`
+- *Centro:*
+  - `IES Rodrigo Caro`
+- *Fecha:*
+  - `Mayo 2025`
+
+
+
 
 
 
 <!---
-
-
----
-
-
-
 
 
 ---
