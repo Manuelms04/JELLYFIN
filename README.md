@@ -55,7 +55,6 @@
   - `samba` (para compartir archivos multimedia)
   - `cron` (para actualizar IP en DuckDNS)
 - **Carpeta compartida local (en la VM o desde el host) para medios multimedia**
-- **Editor de texto** (puede ser `nano`, `vim`, o algún IDE si trabajas desde host)
 - **Puertos abiertos y configurados correctamente:**
   - `8096` → Jellyfin
   - `9090` → Prometheus
