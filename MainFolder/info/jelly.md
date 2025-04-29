@@ -47,7 +47,7 @@ Con esta infraestructura, se logra un **sistema multimedia completo, profesional
 
 ---
 
-Se puede encontrar la configuración de Docker en el archivo `docker-compose.yml` en el [`Paso 2`](https://github.com/Manuelms04/PROYECTO-FINAL) del apartado de `📦 Despliegue de Servicios con Docker Compose 📦` del proyecto.
+Se puede encontrar la configuración de Docker en el archivo `docker-compose.yml` en el `Paso 2` del apartado de [`🎬 DESPLIEGUE DE JELLYFIN 🎬`](/MainFolder/info/4.md) del proyecto.
 
 Asegúrate de tener configuradas correctamente las rutas de almacenamiento multimedia y las carpetas de configuración en tu contenedor.
 
