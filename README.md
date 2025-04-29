@@ -8,7 +8,7 @@
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una `MV`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`. 
+- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una `MV`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`
 
 - Incluye un entorno de `Monitorización con Prometheus y Grafana`, lo que permite supervisar en tiempo real el estado y rendimiento del servidor
 
