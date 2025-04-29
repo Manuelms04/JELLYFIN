@@ -8,16 +8,15 @@
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una máquina virtual con `Debian 12`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`. El sistema se ha estructurado modularmente, permitiendo una implementación ordenada y escalable de cada componente.
+- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una máquina virtual con `Debian 12`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`. El sistema se ha estructurado modularmente, permitiendo una implementación ordenada y escalable de cada componente
 
-- Incluye un entorno de `monitorización con Prometheus y Grafana`, lo que permite supervisar en tiempo real el estado y rendimiento del servidor.
+- Incluye un entorno de `Monitorización con Prometheus y Grafana`, lo que permite supervisar en tiempo real el estado y rendimiento del servidor
 
-- El acceso remoto se ha configurado mediante `DuckDNS`, garantizando la conexión externa sin necesidad de una IP fija. Para asegurar las conexiones, se ha desplegado `Caddy`, un servidor web que proporciona certificados SSL automáticos, gestionando `HTTPS` de forma sencilla y eficaz.
+- El acceso remoto se ha configurado mediante `DuckDNS`, garantizando la conexión externa sin necesidad de una IP fija. Para asegurar las conexiones, se ha desplegado `Caddy`, un servidor web que proporciona certificados SSL automáticos, gestionando `HTTPS` de forma sencilla y eficaz
 
-- Además, se ha integrado un sistema de `alertas automáticas por Telegram`, que notifica fallos o anomalías detectadas, facilitando una gestión proactiva y mejorando la fiabilidad del sistema.
+- Además, se ha integrado un sistema de `Alertas automáticas por Telegram`, que notifica fallos o anomalías detectadas, facilitando una gestión proactiva y mejorando la fiabilidad del sistema
 
-- Como funcionalidad adicional, se ha implementado la `integración de Samba`, permitiendo el acceso y compartición de archivos multimedia entre el servidor y otros dispositivos de la red local.
-
+- Como funcionalidad adicional, se ha implementado la `Integración de Samba`, permitiendo el acceso y compartición de archivos multimedia entre el servidor y otros dispositivos de la red local
 
 
 ---
