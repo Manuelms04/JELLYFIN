@@ -42,6 +42,15 @@
 </div>
 
 
+| [`JELLYFIN`](/MainFolder/info/jelly.mdd) | [`DOCKER`](/MainFolder/info/docker.md) |
+|------------------------------------------|----------------------------------------|
+| [`DUCKDNS`](/MainFolder/info/ddns.md)    | [`CADDY`](/MainFolder/info/caddy.md)   |
+| [`PROMETHEUS`](/MainFolder/info/pro.md)  | [`GRAFANA`](/MainFolder/info/graf.md)  |
+| [`TELEGRAM`](/MainFolder/info/tele.md)   | [`SAMBA`](/MainFolder/info/samba.md)   |
+ 
+
+
+
 ---
 
 
@@ -91,6 +100,22 @@
 > [`🔔 ALERTAS AUTOMÁTICAS POR TELEGRAM 🔔`](/MainFolder/info/8.md)
 
 > [`📁 INTEGRACIÓN DE SAMBA PARA ARCHIVOS MULTIMEDIA 📁`](/MainFolder/info/9.md)
+
+
+
+
+<div align="center">
+
+| [`🔧 PREPARACIÓN DEL SISTEMA OPERATIVO DEBIAN 🔧`](/MainFolder/info/1.md) | [`📈 CONFIGURACIÓN DE PROMETHEUS 📈`](/MainFolder/info/5.md) |
+|-------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`🌍 CONFIGURACIÓN DE DUCKDNS 🌍`](/MainFolder/info/2.md)               | [`📊 CONFIGURACIÓN DE GRAFANA 📊`](/MainFolder/info/6.md)   |
+| [`🐳 INSTALACIÓN DE DOCKER Y DOCKER COMPOSE 🐳`](/MainFolder/info/3.md) | [`🔐 CONFIGURACIÓN DE HTTPS CON CADDY 🔐`](/MainFolder/info/7.md) |
+| [`🎬 DESPLIEGUE DE JELLYFIN 🎬`](/MainFolder/info/4.md)                 | [`🔔 ALERTAS AUTOMÁTICAS POR TELEGRAM 🔔`](/MainFolder/info/8.md) |
+| [`📁 INTEGRACIÓN DE SAMBA PARA ARCHIVOS MULTIMEDIA 📁`](/MainFolder/info/9.md) |                                                              |
+
+</div>
+
+
 
 
 ---
