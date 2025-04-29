@@ -61,13 +61,6 @@
   - `9090` → Prometheus
   - `3000` → Grafana
   - `80 y 443` → HTTPS (Caddy)
-- **Cuenta en Docker Hub** *(opcional, pero útil si quieres personalizar imágenes)*
-- **Conocimientos básicos de:**
-  - Redes
-  - Linux (comandos básicos)
-  - Uso de Docker y YAML
-  - Configuración de servicios en CLI
-  - HTML/Markdown (para la documentación en `.md`)
  
 
 ---
@@ -75,15 +68,15 @@
 
 <h2 align="center"> 📋 Índice de Instalación Paso a Paso 📋 </h2>
 
-1. 🔧 [Preparación del sistema operativo Debian](/MainFolder/info/1.md)
-2. 🌍 [Configuración de DuckDNS](/MainFolder/info/2.md)
-3. 🐳 [Instalación de Docker y Docker Compose](/MainFolder/info/3.md)
-4. 🎞 [Despliegue de Jellyfin](/MainFolder/info/4.md)
-5. 📈 [Configuración de Prometheus](/MainFolder/info/5.md)
-6. 📊 [Configuración de Grafana](/MainFolder/info/6.md)
-7. 🔐 [Configuración de HTTPS con Caddy](/MainFolder/info/7.md)
-8. 🔔 [Alertas automáticas por Telegram](/MainFolder/info/8.md)
-9. 📁 [Integración de Samba para archivos multimedia](/MainFolder/info/9.md)
+- [🔧 Preparación del sistema operativo Debian 🔧](/MainFolder/info/1.md)
+- [🌍 Configuración de DuckDNS 🌍](/MainFolder/info/2.md)
+- [🐳 Instalación de Docker y Docker Compose 🐳](/MainFolder/info/3.md)
+- [🎞 Despliegue de Jellyfin 🎞](/MainFolder/info/4.md)
+- [📈 Configuración de Prometheus 📈](/MainFolder/info/5.md)
+- [📊 Configuración de Grafana 📊](/MainFolder/info/6.md)
+- [🔐 Configuración de HTTPS con Caddy 🔐](/MainFolder/info/7.md)
+- [🔔 Alertas automáticas por Telegram 🔔](/MainFolder/info/8.md)
+- [📁 Integración de Samba para archivos multimedia📁](/MainFolder/info/9.md)
 
 
 ---
