@@ -53,7 +53,7 @@
   - 2 GB de RAM
   - 20 GB de disco duro (preferiblemente dinámico)
   - Red en modo **puente** o **NAT con reenvío de puertos**
-- **Acceso a Internet funcional desde la VM**
+- **Acceso a Internet funcional desde la MV**
 - **Cuenta en [`DuckDNS`](https://www.duckdns.org/)** (para nombre de dominio dinámico)
 - **Cuenta de Telegram con bot creado** (para recibir alertas desde Grafana)
 - **Software necesario instalado en Debian:**
@@ -61,7 +61,7 @@
   - `docker` y `docker-compose`
   - `samba` *(para compartir archivos multimedia)*
   - `cron` *(para actualizar IP en DuckDNS)*
-- **Carpeta compartida local para medios multimedia** *(en la VM o desde el host)*
+- **Carpeta compartida local para medios multimedia** *(en la MV o desde el host)*
 - **Puertos abiertos y configurados correctamente:**
   - `8096` → Jellyfin
   - `9090` → Prometheus
