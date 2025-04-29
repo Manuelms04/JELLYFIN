@@ -80,7 +80,7 @@
 
 > [`🐳 INSTALACIÓN DE DOCKER Y DOCKER COMPOSE 🐳`](/MainFolder/info/3.md)
 
-> [`🎞 DESPLIEGUE DE JELLYFIN 🎞`](/MainFolder/info/4.md)
+> [`🎬 DESPLIEGUE DE JELLYFIN 🎬 `](/MainFolder/info/4.md)
 
 > [`📈 CONFIGURACIÓN DE PROMETHEUS 📈`](/MainFolder/info/5.md)
 
