@@ -41,6 +41,7 @@
   </table>
 </div>
 
+<div align="center">
 
 | [`JELLYFIN`](/MainFolder/info/jelly.mdd) | [`DOCKER`](/MainFolder/info/docker.md) |
 |------------------------------------------|----------------------------------------|
@@ -48,7 +49,7 @@
 | [`PROMETHEUS`](/MainFolder/info/pro.md)  | [`GRAFANA`](/MainFolder/info/graf.md)  |
 | [`TELEGRAM`](/MainFolder/info/tele.md)   | [`SAMBA`](/MainFolder/info/samba.md)   |
  
-
+</div>
 
 
 ---
