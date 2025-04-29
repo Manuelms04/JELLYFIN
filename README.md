@@ -57,16 +57,16 @@
 - **Cuenta en [`DuckDNS`](https://www.duckdns.org/)** (para nombre de dominio dinámico)
 - **Cuenta de Telegram con bot creado** (para recibir alertas desde Grafana)
 - **Software necesario instalado en Debian:**
-  - `curl`, `git`, `nano`, `wget`, etc.
+  - `curl`, `git`, `nano`, `wget`
   - `docker` y `docker-compose`
-  - `samba` (para compartir archivos multimedia)
-  - `cron` (para actualizar IP en DuckDNS)
-- **Carpeta compartida local (en la VM o desde el host) para medios multimedia**
+  - `samba` *(para compartir archivos multimedia)*
+  - `cron` *(para actualizar IP en DuckDNS)*
+- **Carpeta compartida local para medios multimedia** *(en la VM o desde el host)*
 - **Puertos abiertos y configurados correctamente:**
   - `8096` → Jellyfin
   - `9090` → Prometheus
   - `3000` → Grafana
-  - `80 y 443` → HTTPS (Caddy)
+  - `80 y 443` → HTTPS *(Caddy)*
  
 
 ---
