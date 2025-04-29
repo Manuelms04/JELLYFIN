@@ -120,6 +120,4 @@
 - *Fecha:*
   - `Mayo 2025`
 
---- 
 
-> DEJA UNA ESTRELLA SI TE HA GUSTADO ;)
