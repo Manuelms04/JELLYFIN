@@ -68,15 +68,15 @@
 
 <h2 align="center"> 📋 Índice de Instalación Paso a Paso 📋 </h2>
 
-- [🔧 Preparación del sistema operativo Debian 🔧](/MainFolder/info/1.md)
-- [🌍 Configuración de DuckDNS 🌍](/MainFolder/info/2.md)
-- [🐳 Instalación de Docker y Docker Compose 🐳](/MainFolder/info/3.md)
-- [🎞 Despliegue de Jellyfin 🎞](/MainFolder/info/4.md)
-- [📈 Configuración de Prometheus 📈](/MainFolder/info/5.md)
-- [📊 Configuración de Grafana 📊](/MainFolder/info/6.md)
-- [🔐 Configuración de HTTPS con Caddy 🔐](/MainFolder/info/7.md)
-- [🔔 Alertas automáticas por Telegram 🔔](/MainFolder/info/8.md)
-- [📁 Integración de Samba para archivos multimedia📁](/MainFolder/info/9.md)
+> [`🔧 Preparación del sistema operativo Debian 🔧`](/MainFolder/info/1.md)
+> [`🌍 Configuración de DuckDNS 🌍`](/MainFolder/info/2.md)
+> [`🐳 Instalación de Docker y Docker Compose 🐳`](/MainFolder/info/3.md)
+> [`🎞 Despliegue de Jellyfin 🎞`](/MainFolder/info/4.md)
+> [`📈 Configuración de Prometheus 📈`](/MainFolder/info/5.md)
+> [`📊 Configuración de Grafana 📊`](/MainFolder/info/6.md)
+> [`🔐 Configuración de HTTPS con Caddy 🔐`](/MainFolder/info/7.md)
+> [`🔔 Alertas automáticas por Telegram 🔔`](/MainFolder/info/8.md)
+> [`📁 Integración de Samba para archivos multimedia📁`](/MainFolder/info/9.md)
 
 
 ---
