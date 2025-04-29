@@ -15,18 +15,6 @@
 ---
 
 
-## Referencia 
-
-> [`VIDEO 1 YT`](https://youtu.be/ZJiUetTJVxw?si=ET_eLOi5_8n4LdUq>)
-
-> [`VIDEO 2 YT`](https://youtu.be/4RSUCgCIPqo?si=OHxE6xW3Y7VyMilL)
-
-> [`GIT HUB`](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
-
-
----
-
-
 <h2 align="center"> 💻 Software Implementado 💻 </h2>
 
 <div align="center">
@@ -49,18 +37,80 @@
 
 ---
 
-<h2 align="center">  ✅ Requisitos ✅ </h2>
 
-- Imagen ISO de Debian 12
-- Máquina Virtual con:
+<h2 align="center">✅ Requisitos ✅</h2>
+
+- **Imagen ISO de Debian 12**
+- **Máquina Virtual configurada con:**
   - 2 CPU
   - 2 GB de RAM
-  - 20 GB de disco (dinámico)
-  - Red en modo puente o NAT
-- Carpeta compartida para almacenamiento multimedia
-- Conexión a Internet
-- Cuenta en [DuckDNS](https://www.duckdns.org/)
-- Cuenta de Telegram y bot creado
+  - 20 GB de disco duro (preferiblemente dinámico)
+  - Red en modo **puente** o **NAT con reenvío de puertos**
+- **Acceso a Internet funcional desde la VM**
+- **Cuenta en [DuckDNS](https://www.duckdns.org/)** (para nombre de dominio dinámico)
+- **Cuenta de Telegram con bot creado** (para recibir alertas desde Grafana)
+- **Software necesario instalado en Debian:**
+  - `curl`, `git`, `nano`, `wget`, etc.
+  - `docker` y `docker-compose`
+  - `samba` (para compartir archivos multimedia)
+  - `cron` (para actualizar IP en DuckDNS)
+- **Carpeta compartida local (en la VM o desde el host) para medios multimedia**
+- **Editor de texto** (puede ser `nano`, `vim`, o algún IDE si trabajas desde host)
+- **Puertos abiertos y configurados correctamente:**
+  - `8096` → Jellyfin
+  - `9090` → Prometheus
+  - `3000` → Grafana
+  - `80 y 443` → HTTPS (Caddy)
+- **Cuenta en Docker Hub** *(opcional, pero útil si quieres personalizar imágenes)*
+- **Conocimientos básicos de:**
+  - Redes
+  - Linux (comandos básicos)
+  - Uso de Docker y YAML
+  - Configuración de servicios en CLI
+  - HTML/Markdown (para la documentación en `.md`)
+ 
+
+---
+
+
+<h2 align="center"> 📋 Índice de Instalación Paso a Paso 📋 </h2>
+
+1. 🔧 [Preparación del sistema operativo Debian](/MainFolder/info/1.md)
+2. 🌍 [Configuración de DuckDNS](/MainFolder/info/2.md)
+3. 🐳 [Instalación de Docker y Docker Compose](/MainFolder/info/3.md)
+4. 🎞 [Despliegue de Jellyfin](/MainFolder/info/4.md)
+5. 📈 [Configuración de Prometheus](/MainFolder/info/5.md)
+6. 📊 [Configuración de Grafana](/MainFolder/info/6.md)
+7. 🔐 [Configuración de HTTPS con Caddy](/MainFolder/info/7.md)
+8. 🔔 [Alertas automáticas por Telegram](/MainFolder/info/8.md)
+9. 📁 [Integración de Samba para archivos multimedia](/MainFolder/info/9.md)
+
+
+---
+
+
+## Referencia 
+
+> [`VIDEO 1 YT`](https://youtu.be/ZJiUetTJVxw?si=ET_eLOi5_8n4LdUq>)
+
+> [`VIDEO 2 YT`](https://youtu.be/4RSUCgCIPqo?si=OHxE6xW3Y7VyMilL)
+
+> [`GIT HUB`](https://github.com/fernandoayoso/TFG_FernandoGarciaAyoso)
+
+
+---
+
+
+
+
+
+<!---
+
+
+---
+
+
+
 
 
 ---
