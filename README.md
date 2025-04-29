@@ -7,9 +7,13 @@
 
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
-- Este proyecto consiste en la implementación de un servidor multimedia con Jellyfin dentro de una máquina virtual con Debian, utilizando contenedores gestionados mediante Docker y Docker Compose. El sistema incluye un entorno de monitorización con Prometheus y Grafana, lo que permite supervisar su estado en tiempo real.
+- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una máquina virtual con `Debian 12`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`. El sistema se ha estructurado modularmente, permitiendo una implementación ordenada y escalable de cada componente
 
-- Además, se ha configurado el acceso remoto mediante DuckDNS, garantizando la conexión externa sin necesidad de IP fija. Como valor añadido, se ha integrado un sistema de alertas automáticas por Telegram, que notifica cualquier fallo o anomalía detectada, permitiendo una gestión proactiva del servidor y aumentando su fiabilidad
+- Incluye un entorno de `Monitorización con Prometheus y Grafana`, lo que permite supervisar en tiempo real el estado y rendimiento del servidor
+
+- El acceso remoto se ha configurado mediante `DuckDNS`, garantizando la conexión externa sin necesidad de una IP fija. Además, se ha integrado un sistema de `Alertas automáticas por Telegram`, que notifica fallos o anomalías detectadas, facilitando una gestión proactiva y mejorando la fiabilidad del sistema
+
+- Como funcionalidad adicional, se ha implementado la `Integración de Samba`, permitiendo el acceso y compartición de archivos multimedia entre el servidor y otros dispositivos de la red local
 
 
 ---
@@ -47,7 +51,7 @@
   - 20 GB de disco duro (preferiblemente dinámico)
   - Red en modo **puente** o **NAT con reenvío de puertos**
 - **Acceso a Internet funcional desde la VM**
-- **Cuenta en [DuckDNS](https://www.duckdns.org/)** (para nombre de dominio dinámico)
+- **Cuenta en [`DuckDNS`](https://www.duckdns.org/)** (para nombre de dominio dinámico)
 - **Cuenta de Telegram con bot creado** (para recibir alertas desde Grafana)
 - **Software necesario instalado en Debian:**
   - `curl`, `git`, `nano`, `wget`, etc.
