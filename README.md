@@ -24,6 +24,8 @@
 
 <h2 align="center"> 💻 Software Implementado 💻 </h2>
 
+
+<!--
 <div align="center">
   <table>
     <tr>
@@ -40,6 +42,7 @@
     </tr>
   </table>
 </div>
+-->
 
 <div align="center">
 
