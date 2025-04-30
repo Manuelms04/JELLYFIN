@@ -75,7 +75,7 @@
 <h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
 
 <p align="center">
-  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="800" height="200">
+  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
 </p>
 
 ---
