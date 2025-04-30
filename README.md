@@ -72,6 +72,15 @@
 
 ---
 
+<h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
+
+<p align="center">
+  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="800" height="200">
+</p>
+
+---
+
+
 
 <h2 align="center"> 📋 Índice de Instalación Paso a Paso 📋 </h2>
 
