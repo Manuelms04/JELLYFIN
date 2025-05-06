@@ -108,8 +108,8 @@
 
 <h2 align="center"> 🔗 Referencias 🔗 </h2>
 
-- [METADATOS 1](https://musicbrainz.org/)
-- [METADATOS 2](https://www.theaudiodb.com/)
+- [METADATOS 1(musica)](https://musicbrainz.org/)
+- [METADATOS 2(musica)](https://www.theaudiodb.com/)
 
 ---
 
