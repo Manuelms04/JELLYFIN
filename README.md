@@ -106,15 +106,6 @@
 ---
 
 
-<h2 align="center"> 🔗 Referencias 🔗 </h2>
-
-- [METADATOS 1(musica)](https://musicbrainz.org/)
-- [METADATOS 2(musica)](https://www.theaudiodb.com/)
-- [PROM+GRAF](https://youtu.be/dtscyg03kII?feature=shared)
-
----
-
-
 <h2 align="center"> 🧠 Conclusion 🧠 </h2>
 
 - Este proyecto representa la integración real de múltiples tecnologías y competencias clave del ciclo ASIR, en un entorno moderno, escalable y completamente funcional. Permite al usuario disfrutar de una experiencia multimedia rica, mientras mantiene control total sobre el estado del sistema, incluso de forma remota
@@ -149,7 +140,17 @@
     - Se realizaron pruebas forzadas de fallo (apagado de contenedores, consumo excesivo de recursos, caídas de red) para verificar que los sistemas de monitorización y alerta funcionaban correctamente. Esto permitió ajustar los umbrales de alertas y garantizar la estabilidad del sistema
 
 
-----
+---
+
+
+<h2 align="center"> 🔗 Referencias 🔗 </h2>
+
+- [METADATOS 1(musica)](https://musicbrainz.org/)
+- [METADATOS 2(musica)](https://www.theaudiodb.com/)
+- [PROM+GRAF](https://youtu.be/dtscyg03kII?feature=shared)
+
+
+---
 
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
