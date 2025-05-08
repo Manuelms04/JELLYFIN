@@ -164,6 +164,6 @@
 - *Centro:*
   - `IES Rodrigo Caro`
 - *Fecha:*
-  - `Mayo 2025`
+  - `12 de Junio 2025`
 
 
