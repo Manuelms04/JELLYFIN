@@ -115,6 +115,9 @@
 ---
 
 
+<h2 align="center"> Conclusión y Dificultades </h2>
+
+
 <h2 align="center"> 🧾 Autor 🧾 </h2>
 
 - *Autor:*
