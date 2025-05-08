@@ -50,9 +50,9 @@
 
 - **Imagen ISO de Debian 12**
 - **Máquina Virtual configurada con:**
-  - 2 CPU
-  - 2 GB de RAM
-  - 20 GB de disco duro *(preferiblemente dinámico)*
+  - 3 CPU
+  - 8 GB de RAM
+  - 80 GB de disco duro *(preferiblemente dinámico)*
   - Red en modo **puente** o **NAT con reenvío de puertos**
 - **Acceso a Internet funcional desde la MV**
 - **Cuenta en [`DuckDNS`](https://www.duckdns.org/)** *(para nombre de dominio dinámico)*
