@@ -146,8 +146,8 @@
 <h2 align="center"> 🔗 Referencias 🔗 </h2>
 
 
-- [METADATOS 1(musica)](https://musicbrainz.org/)
-- [METADATOS 2(musica)](https://www.theaudiodb.com/)
+- [METADATOS 1 (musica)](https://musicbrainz.org/)
+- [METADATOS 2 (musica)](https://www.theaudiodb.com/)
 - [PROM + GRAF](https://youtu.be/dtscyg03kII?feature=shared)
 - [DuckDNS / SSL](https://youtu.be/GO9Ji7Nslj0?feature=shared)
 
