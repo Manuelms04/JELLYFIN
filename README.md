@@ -116,7 +116,7 @@
 ---
 
 
-<h2 align="center"> 🧱 Dificultades 🧱 </h2>
+<h2 align="center"> 🧱 Desafíos Encontrados 🧱 </h2>
 
 *Durante la realización del proyecto se presentaron varios desafíos que requirieron análisis, pruebas y adaptaciones para poder avanzar con éxito. A continuación, se detallan los principales:*
 
