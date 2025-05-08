@@ -115,7 +115,41 @@
 ---
 
 
-<h2 align="center"> Conclusión y Dificultades </h2>
+<h2 align="center"> 🧠 Conclusion 🧠 </h2>
+
+- Este proyecto representa la integración real de múltiples tecnologías y competencias clave del ciclo ASIR, en un entorno moderno, escalable y completamente funcional. Permite al usuario disfrutar de una experiencia multimedia rica, mientras mantiene control total sobre el estado del sistema, incluso de forma remota
+
+- Además, este trabajo demuestra cómo se pueden implementar soluciones avanzadas sin depender de licencias comerciales ni grandes infraestructuras, únicamente con software libre, contenedores y servicios en la nube. La estructura modular permite ampliar el sistema en el futuro, añadiendo funcionalidades como autenticación, transcodificación o copias de seguridad automáticas
+
+
+---
+
+
+<h2 align="center"> 🧱 Dificultades 🧱 </h2>
+
+*Durante la realización del proyecto se presentaron varios desafíos que requirieron análisis, pruebas y adaptaciones para poder avanzar con éxito. A continuación, se detallan los principales:*
+
+- `Configuración de red y acceso externo seguro`
+    - Uno de los principales retos fue lograr que el servidor Jellyfin fuera accesible desde el exterior sin comprometer la seguridad. La combinación de DuckDNS (DNS dinámico) y Caddy (proxy inverso con HTTPS automático) implicó entender bien el funcionamiento de los certificados SSL, redireccionamientos y puertos necesarios.
+
+- `Integración de múltiples servicios en un único docker-compose.yml`
+    - Coordinar diferentes servicios (Jellyfin, Prometheus, Grafana, Caddy, etc.) dentro del mismo archivo docker-compose.yml exigió gestionar correctamente volúmenes, redes internas, y dependencias entre contenedores. Fue clave mantener un orden claro para evitar conflictos.
+
+- `Permisos de carpetas compartidas con Samba`
+    - Configurar Samba para que permitiera escritura desde otros equipos y a la vez mantener la seguridad del sistema fue complejo. Requirió ajustar permisos de usuario, máscaras de creación (create mask y directory mask) y validar el acceso desde diferentes sistemas operativos.
+    
+- `Monitorización personalizada con Prometheus y Grafana`
+    - No fue suficiente con instalar Prometheus y Grafana, hubo que aprender a configurar correctamente los exporters, definir el archivo prometheus.yml y crear dashboards en Grafana que mostrarán información útil. También fue un desafío hacer que Grafana enviará alertas a Telegram correctamente.
+
+
+- `Actualización automática de la IP pública con DuckDNS`
+    - Al trabajar con una IP dinámica, se implementó un script para actualizar la IP periódicamente. La programación de esta tarea en cron y su correcta ejecución supuso una curva de aprendizaje adicional.
+
+- `Gestión de errores y pruebas de fiabilidad`
+    - Se realizaron pruebas forzadas de fallo (apagado de contenedores, consumo excesivo de recursos, caídas de red) para verificar que los sistemas de monitorización y alerta funcionaban correctamente. Esto permitió ajustar los umbrales de alertas y garantizar la estabilidad del sistema.
+
+
+----
 
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
