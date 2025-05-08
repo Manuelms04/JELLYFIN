@@ -106,7 +106,7 @@
 ---
 
 
-<h2 align="center"> 🧠 Conclusion 🧠 </h2>
+<h2 align="center"> 🧠 ConclusiÓn 🧠 </h2>
 
 - Este proyecto representa la integración real de múltiples tecnologías y competencias clave del ciclo ASIR, en un entorno moderno, escalable y completamente funcional. Permite al usuario disfrutar de una experiencia multimedia rica, mientras mantiene control total sobre el estado del sistema, incluso de forma remota
 
