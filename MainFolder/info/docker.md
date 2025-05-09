@@ -10,7 +10,7 @@
     - Cada aplicación (Jellyfin, Prometheus, Grafana) corre en su propio contenedor, lo cual evita conflictos entre dependencias y versiones. Esto hace que el sistema sea más estable y fácil de mantener.
 
 - `Facilidad de despliegue`
-    - Gracias a Docker Compose, puedes levantar todos los servicios necesarios con un solo comando (docker-compose up -d). Esto ahorra mucho tiempo frente a la instalación manual de cada software.
+    - Gracias a Docker Compose, se puede levantar todos los servicios necesarios con un solo comando (docker-compose up -d). Esto ahorra mucho tiempo frente a la instalación manual de cada software.
 
 - `Portabilidad`
     - Todo el sistema puede replicarse fácilmente en otra máquina con Docker instalado, simplemente copiando los archivos de configuración (como el docker-compose.yml).
