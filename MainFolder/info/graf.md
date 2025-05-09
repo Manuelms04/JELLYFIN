@@ -16,7 +16,7 @@
     - Prometheus guarda las métricas, pero Grafana las presenta de forma visual, permitiendo analizar el rendimiento del servidor de manera más eficiente y amigable.
 
 - Acceso web desde cualquier dispositivo
-    - Al estar configurado con Docker, puedes acceder a Grafana desde tu navegador usando http://IP_VM:3000, lo que facilita su uso desde cualquier equipo, ya sea dentro o fuera de la red (si se usa junto con DuckDNS).
+    - Al estar configurado con Docker, puedes acceder a Grafana desde tu navegador usando `http://IP_VM:3000`, lo que facilita su uso desde cualquier equipo, ya sea dentro o fuera de la red (si se usa junto con DuckDNS).
 
 - Alertas y supervisión inteligente
     - Grafana permite configurar alertas personalizadas (por ejemplo, si el uso de CPU supera cierto porcentaje), lo cual es útil para mantener el servidor funcionando correctamente incluso sin supervisión constante.
