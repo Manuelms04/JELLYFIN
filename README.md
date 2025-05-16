@@ -4,6 +4,7 @@
 
 ---
 
+&nbsp;
 
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
@@ -23,11 +24,16 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 - `SAMBA` para compartir carpetas entre el servidor y otros equipos de la red
 
+&nbsp;
 
 > Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
 
+&nbsp;
+
 
 ---
+
+&nbsp;
 
 
 <h2 align="center"> 🎯 Objetivos del proyecto 🎯 </h2>
@@ -48,8 +54,12 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 - Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con `CRON`, y gestión básica de firewall con `UFW`
 
+&nbsp;
+
 
 ---
+
+&nbsp;
 
 
 <h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
@@ -58,8 +68,12 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
   <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
 </p>
 
+&nbsp;
+
 
 ---
+
+&nbsp;
 
 
 <h2 align="center"> 💻 Software Implementado 💻 </h2>
@@ -80,10 +94,13 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
     </tr>
   </table>
 </div>
- 
+
+ &nbsp;
+
 
 ---
 
+&nbsp;
 
 <h2 align="center">✅ Requisitos ✅</h2>
 
@@ -108,10 +125,11 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
   - `3000` → Grafana
   - `80 y 443` → HTTPS *(Caddy)*
  
+&nbsp;
 
 ---
 
-
+&nbsp;
 
 <h2 align="center"> 📋 Índice de Instalación Paso a Paso 📋 </h2>
 
@@ -133,9 +151,11 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 > [`📁 INTEGRACIÓN DE SAMBA PARA ARCHIVOS MULTIMEDIA 📁`](/MainFolder/info/9.md)
 
+&nbsp;
 
 ---
 
+&nbsp;
 
 <h2 align="center"> 🧠 Conclusión 🧠 </h2>
 
@@ -143,9 +163,11 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 - Además, este trabajo demuestra cómo se pueden implementar soluciones avanzadas sin depender de licencias comerciales ni grandes infraestructuras, únicamente con software libre, contenedores y servicios en la nube. La estructura modular permite ampliar el sistema en el futuro, añadiendo funcionalidades como autenticación, transcodificación o copias de seguridad automáticas
 
+&nbsp;
 
 ---
 
+&nbsp;
 
 <h2 align="center"> 🧱 Desafíos Encontrados 🧱 </h2>
 
@@ -170,9 +192,11 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 - `GESTIÓN DE ERRORES Y PRUEBAS DE FIABILIDAD`
     - Se realizaron pruebas forzadas de fallo (apagado de contenedores, consumo excesivo de recursos, caídas de red) para verificar que los sistemas de monitorización y alerta funcionaban correctamente. Esto permitió ajustar los umbrales de alertas y garantizar la estabilidad del sistema
 
+&nbsp;
 
 ---
 
+&nbsp;
 
 <h2 align="center"> 🔗 Referencias 🔗 </h2>
 
@@ -182,9 +206,11 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 - [PROM + GRAF](https://youtu.be/dtscyg03kII?feature=shared)
 - [DuckDNS / SSL](https://youtu.be/GO9Ji7Nslj0?feature=shared)
 
+&nbsp;
 
 ---
 
+&nbsp;
 
 <h2 align="center"> 🧾 Autor 🧾 </h2>
 
