@@ -4,29 +4,30 @@
 
 ---
 
+
 &nbsp;
 
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet.*
+En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet
 
 
 *Para lograr esto, se han integrado varias tecnologías complementarias:*
 
-- `DOCKER` y `DOCKER COMPOSE` para facilitar el despliegue y mantenimiento de los servicios
+- [`DOCKER`](/MainFolder/info/docker.md) y [`DOCKER COMPOSE`](/MainFolder/info/docker.md) para facilitar el despliegue y mantenimiento de los servicios
 
-- `DUCKDNS` y `CADDY` para permitir acceso remoto seguro mediante HTTPS
+- [`DUCKDNS`](/MainFolder/info/ddns.md) y [`CADDY`](/MainFolder/info/caddy.md) para permitir acceso remoto seguro mediante HTTPS
 
-- `PROMETHEUS` y `GRAFANA` para la monitorización activa del sistema
+- [`PROMETHEUS`](/MainFolder/info/pro.md) y [`GRAFANA`](/MainFolder/info/graf.md) para la monitorización activa del sistema
 
-- `TELEGRAM` como canal de notificación de alertas
+- [`TELEGRAM`](/MainFolder/info/tele.md) como canal de notificación de alertas
 
-- `SAMBA` para compartir carpetas entre el servidor y otros equipos de la red
+- [`SAMBA`](/MainFolder/info/samba.md) para compartir carpetas entre el servidor y otros equipos de la red
 
 &nbsp;
 
-> Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
+> Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube
 
 &nbsp;
 
@@ -40,19 +41,19 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 *Los principales objetivos de este trabajo son:*
 
-- Montar un servidor multimedia con `JELLYFIN`, capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
+- Montar un servidor multimedia con [`JELLYFIN`](/MainFolder/info/jelly.md), capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
 
-- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de `DUCKDNS` y `CADDY` con certificados TLS automáticos
+- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de [`DUCKDNS`](/MainFolder/info/ddns.md) y [`CADDY`](/MainFolder/info/caddy.md) con certificados TLS automáticos
 
-- Implementar el sistema sobre `DOCKER`, permitiendo que todos los servicios estén contenedorizados y centralizados mediante `DOCKER-COMPOSE.YML`
+- Implementar el sistema sobre [`DOCKER`](/MainFolder/info/docker.md), permitiendo que todos los servicios estén contenedorizados y centralizados mediante [`DOCKER-COMPOSE.YML`](/MainFolder/info/docker.md)
 
-- Incorporar herramientas de monitorización como `PROMETHEUS` y `GRAFANA`, para supervisar el estado del servidor y sus recursos
+- Incorporar herramientas de monitorización como [`PROMETHEUS`](/MainFolder/info/pro.md) y [`GRAFANA`](/MainFolder/info/graf.md), para supervisar el estado del servidor y sus recursos
 
-- Enviar alertas automáticas a `TELEGRAM`, con el fin de detectar y responder ante fallos o comportamientos anómalos
+- Enviar alertas automáticas a [`TELEGRAM`](/MainFolder/info/tele.md), con el fin de detectar y responder ante fallos o comportamientos anómalos
 
-- Permitir la carga de contenido desde la red local, gracias a la integración de `SAMBA` como servicio de compartición de carpetas
+- Permitir la carga de contenido desde la red local, gracias a la integración de [`SAMBA`](/MainFolder/info/samba.md) como servicio de compartición de carpetas
 
-- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con `CRON`, y gestión básica de firewall con `UFW`
+- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con [`CRON`](https://crontab.cronhub.io/), y gestión básica de firewall con [`UFW`](https://es.linux-console.net/?p=5765)
 
 &nbsp;
 
