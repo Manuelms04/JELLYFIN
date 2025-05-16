@@ -76,6 +76,16 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
 ---
 
 
+<h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
+
+<p align="center">
+  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
+</p>
+ 
+
+---
+
+
 <h2 align="center">✅ Requisitos ✅</h2>
 
 - **Imagen ISO de Debian 12**
@@ -99,14 +109,6 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
   - `3000` → Grafana
   - `80 y 443` → HTTPS *(Caddy)*
  
-
----
-
-<h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
-
-<p align="center">
-  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
-</p>
 
 ---
 
