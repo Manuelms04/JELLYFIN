@@ -10,7 +10,7 @@
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet
+En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet
 
 
 *Para lograr esto, se han integrado varias tecnologías complementarias:*
