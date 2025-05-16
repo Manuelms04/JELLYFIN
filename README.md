@@ -52,7 +52,15 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
 ---
 
 
+<h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
+
+<p align="center">
+  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
+</p>
 <h2 align="center"> 💻 Software Implementado 💻 </h2>
+
+
+---
 
 
 <div align="center">
@@ -71,16 +79,6 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
     </tr>
   </table>
 </div>
-
-
----
-
-
-<h2 align="center"> 🗺️ Mapa Conceptual 🗺️ </h2>
-
-<p align="center">
-  <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
-</p>
  
 
 ---
