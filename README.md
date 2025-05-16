@@ -8,10 +8,10 @@
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet.
+En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet.*
 
 
-Para lograr esto, se han integrado varias tecnologías complementarias:
+*Para lograr esto, se han integrado varias tecnologías complementarias:*
 
 - `DOCKER` y `DOCKER COMPOSE` para facilitar el despliegue y mantenimiento de los servicios
 
@@ -24,7 +24,7 @@ Para lograr esto, se han integrado varias tecnologías complementarias:
 - `SAMBA` para compartir carpetas entre el servidor y otros equipos de la red
 
 
-Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
+> Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
 
 
 ---
