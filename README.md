@@ -34,19 +34,19 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
 
 *Los principales objetivos de este trabajo son:*
 
-- Montar un servidor multimedia con Jellyfin, capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
+- Montar un servidor multimedia con `JELLYFIN`, capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
 
-- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de DuckDNS y Caddy con certificados TLS automáticos
+- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de `DUCKDNS` y `CADDY` con certificados TLS automáticos
 
-- Implementar el sistema sobre Docker, permitiendo que todos los servicios estén contenedorizados y centralizados mediante docker-compose.yml
+- Implementar el sistema sobre `DOCKER`, permitiendo que todos los servicios estén contenedorizados y centralizados mediante `DOCKER-COMPOSE.YML`
 
-- Incorporar herramientas de monitorización como Prometheus y Grafana, para supervisar el estado del servidor y sus recursos
+- Incorporar herramientas de monitorización como `PROMETHEUS` y `GRAFANA`, para supervisar el estado del servidor y sus recursos
 
-- Enviar alertas automáticas a Telegram, con el fin de detectar y responder ante fallos o comportamientos anómalos
+- Enviar alertas automáticas a `TELEGRAM`, con el fin de detectar y responder ante fallos o comportamientos anómalos
 
-- Permitir la carga de contenido desde la red local, gracias a la integración de Samba como servicio de compartición de carpetas
+- Permitir la carga de contenido desde la red local, gracias a la integración de `SAMBA` como servicio de compartición de carpetas
 
-- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con cron, y gestión básica de firewall con ufw
+- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con `CRON`, y gestión básica de firewall con `UFW`
 
 
 ---
