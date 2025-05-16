@@ -8,15 +8,24 @@
 <h2 align="center"> 📘 Introducción 📘 </h2>
 
 
-- Este proyecto consiste en la implementación de un servidor multimedia con `Jellyfin` dentro de una `MV`, utilizando contenedores gestionados mediante `Docker` y `Docker Compose`
+En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas Informáticos en Red (ASIR), he diseñado e implementado un sistema completo para el despliegue y gestión de un servidor multimedia empleando Jellyfin como núcleo principal. El sistema ha sido construido en una máquina virtual Debian, y tiene como finalidad permitir la visualización, carga y administración de contenido multimedia desde cualquier dispositivo, tanto en red local como de manera remota a través de Internet.
 
-- Incluye un entorno de `Monitorización con Prometheus y Grafana`, lo que permite supervisar en tiempo real el estado y rendimiento del servidor
 
-- El acceso remoto se ha configurado mediante `DuckDNS`, garantizando la conexión externa sin necesidad de una IP fija. Para asegurar las conexiones, se ha desplegado `Caddy`, para proporcionar certificados SSL automáticos, gestionando `HTTPS` de forma sencilla y eficaz
+Para lograr esto, se han integrado varias tecnologías complementarias:
 
-- Además, se ha integrado un sistema de `Alertas automáticas por Telegram`, que notifica fallos o anomalías detectadas, facilitando una gestión proactiva y mejorando la fiabilidad del sistema
+- `Docker` y `Docker Compose` para facilitar el despliegue y mantenimiento de los servicios
 
-- Como funcionalidad adicional, se ha implementado la `Integración de Samba`, permitiendo el acceso y compartición de archivos multimedia entre el servidor y otros dispositivos de la red local
+- `DuckDNS` y `Caddy` para permitir acceso remoto seguro mediante HTTPS
+
+- `Prometheus` y `Grafana` para la monitorización activa del sistema
+
+- `Telegram` como canal de notificación de alertas
+
+- `SAMBA` para compartir carpetas entre el servidor y otros equipos de la red
+
+
+Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
+
 
 
 ---
