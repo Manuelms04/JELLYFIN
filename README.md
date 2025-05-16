@@ -13,19 +13,40 @@ En el presente Trabajo de Fin de Grado del ciclo de Administración de Sistemas 
 
 Para lograr esto, se han integrado varias tecnologías complementarias:
 
-- `Docker` y `Docker Compose` para facilitar el despliegue y mantenimiento de los servicios
+- `DOCKER` y `DOCKER COMPOSE` para facilitar el despliegue y mantenimiento de los servicios
 
-- `DuckDNS` y `Caddy` para permitir acceso remoto seguro mediante HTTPS
+- `DUCKDNS` y `CADDY` para permitir acceso remoto seguro mediante HTTPS
 
-- `Prometheus` y `Grafana` para la monitorización activa del sistema
+- `PROMETHEUS` y `GRAFANA` para la monitorización activa del sistema
 
-- `Telegram` como canal de notificación de alertas
+- `TELEGRAM` como canal de notificación de alertas
 
 - `SAMBA` para compartir carpetas entre el servidor y otros equipos de la red
 
 
 Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube.
 
+
+---
+
+
+<h2 align="center"> 🎯 Objetivos del proyecto 🎯 </h2>
+
+*Los principales objetivos de este trabajo son:*
+
+- Montar un servidor multimedia con Jellyfin, capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
+
+- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de DuckDNS y Caddy con certificados TLS automáticos
+
+- Implementar el sistema sobre Docker, permitiendo que todos los servicios estén contenedorizados y centralizados mediante docker-compose.yml
+
+- Incorporar herramientas de monitorización como Prometheus y Grafana, para supervisar el estado del servidor y sus recursos
+
+- Enviar alertas automáticas a Telegram, con el fin de detectar y responder ante fallos o comportamientos anómalos
+
+- Permitir la carga de contenido desde la red local, gracias a la integración de Samba como servicio de compartición de carpetas
+
+- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con cron, y gestión básica de firewall con ufw
 
 
 ---
