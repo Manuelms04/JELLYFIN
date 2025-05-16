@@ -57,11 +57,12 @@ Este proyecto no solo cumple con los objetivos de integración y automatización
 <p align="center">
   <img src="/MainFolder/img/mapa.png" alt="MAPA" width="900" height="450">
 </p>
-<h2 align="center"> 💻 Software Implementado 💻 </h2>
 
 
 ---
 
+
+<h2 align="center"> 💻 Software Implementado 💻 </h2>
 
 <div align="center">
   <table>
