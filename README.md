@@ -206,6 +206,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 - [METADATOS 2 (musica)](https://www.theaudiodb.com/)
 - [PROM + GRAF](https://youtu.be/dtscyg03kII?feature=shared)
 - [DuckDNS / SSL](https://youtu.be/GO9Ji7Nslj0?feature=shared)
+- [PLUGINGS](https://youtu.be/SLzBe9jhix4?feature=shared)
 
 &nbsp;
 
