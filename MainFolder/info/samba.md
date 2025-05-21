@@ -6,19 +6,19 @@
 
 ### *¿Por qué se usa Samba en este trabajo?*
 
-- `Compartición de archivos multimedia`
+- `COMPARTICIÓN DE ARCHIVOS MULTIMEDIA`
     - Gracias a Samba, se puede compartir la carpeta que contiene películas, series o música entre la máquina virtual y cualquier otro dispositivo de la red, como un PC con Windows o una Smart TV
 
-- `Acceso sencillo desde otros equipos`
+- `ACCESO SENCILLO DESDE OTROS EQUIPOS`
     - Cualquier equipo conectado a la misma red puede acceder a la carpeta compartida introduciendo `\\IP_DE_LA_MV\Media` en el explorador de archivos, haciendo más cómodo subir o gestionar contenido multimedia
 
-- `Integración directa con Jellyfin`
+- `INTEGRACIÓN DIRECTA CON JELLYFIN`
     - Al montar la carpeta compartida en el contenedor de Jellyfin, se permite que este acceda directamente a los archivos multimedia sin necesidad de moverlos manualmente al contenedor
 
-- `Control de acceso por usuario`
+- `CONTROL DE ACCESO POR USUARIO`
     - Samba permite definir usuarios autorizados, mejorando la seguridad del acceso a las carpetas compartidas dentro del entorno local
 
-- `Fácil de instalar y configurar`
+- `FÁCIL DE INSTALAR Y CONFIGURAR`
     - Su instalación y configuración son rápidas, y se integran fácilmente con el resto de servicios del servidor desplegados mediante Docker
 
 ---
