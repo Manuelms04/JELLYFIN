@@ -18,7 +18,7 @@
 - `REVERSE PROXY AVANZADO`
     - Con su funcionalidad de proxy inverso, Caddy puede redirigir el tráfico entrante a otros servicios como Jellyfin, asegurando que los usuarios puedan acceder al contenido de forma segura desde cualquier lugar.
 
-- Acceso web desde cualquier dispositivo
+- `ACCESO WEB DESDE CUALQUIER DISPOSITIVO`
     - Al estar configurado en Docker, Caddy se puede acceder desde cualquier navegador utilizando el dominio configurado (por ejemplo, https://manuelms.duckdns.org), lo que facilita su uso en una red local o externa (si se configura con DuckDNS).
 
 - `ACCESO WEB DESDE CUALQUIER DISPOSITIVO`
