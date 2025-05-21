@@ -6,22 +6,22 @@
 
 ### *¿Por qué se usan las alertas de Telegram en este trabajo?*
 
-- `Notificaciones instantáneas`
+- `NOTIFICACIONES INSTANTÁNEAS`
     - Las alertas se envían en tiempo real a través de Telegram, asegurando que el administrador del sistema esté al tanto de cualquier incidencia sin tener que revisar constantemente el estado del servidor
 
-- `Automatización del monitoreo`
+- `AUTOMATIZACIÓN DEL MONITOREO`
     - La integración de Telegram con Grafana y Prometheus permite que el sistema envíe alertas automáticas sin intervención humana, lo que optimiza la administración y mejora la eficiencia operativa
 
-- `Mejora de la fiabilidad del servidor`
+- `MEJORA DE LA FIABILIDAD DEL SERVIDOR`
     - Al recibir notificaciones inmediatas sobre fallos o problemas de rendimiento, se pueden tomar acciones correctivas rápidamente, garantizando que el servidor funcione de manera óptima en todo momento
 
-- `Fácil accesibilidad`
+- `FÁCIL ACCESIBILIDAD`
     - Al usar Telegram, las alertas están al alcance de cualquier dispositivo móvil, lo que permite al administrador estar informado y actuar de manera rápida sin importar su ubicación
 
-- `Reducción de tiempo de inactividad`
+- `REDUCCIÓN DE TIEMPO DE INACTIVIDAD`
     - Las alertas tempranas permiten identificar y solucionar problemas antes de que se conviertan en fallos graves, minimizando el tiempo de inactividad del servidor
 
-- `Mayor control sobre el sistema`
+- `MAYOR CONTROL SOBRE EL SISTEMA`
     - La integración con Telegram proporciona un nivel adicional de supervisión, permitiendo un control completo sobre el servidor en todo momento
 
 ---
