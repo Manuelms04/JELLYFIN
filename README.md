@@ -17,7 +17,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 - [`DOCKER`](/MainFolder/info/docker.md) y [`DOCKER COMPOSE`](/MainFolder/info/docker.md) para facilitar el despliegue y mantenimiento de los servicios
 
-- [`DUCKDNS`](/MainFolder/info/ddns.md) y [`CADDY`](/MainFolder/info/caddy.md) para permitir acceso remoto seguro mediante HTTPS
+- [`DUCKDNS`](/MainFolder/info/ddns.md) para proporcionar un nombre de dominio dinámico accesible desde el exterior
 
 - [`PROMETHEUS`](/MainFolder/info/pro.md) y [`GRAFANA`](/MainFolder/info/graf.md) para la monitorización activa del sistema
 
@@ -43,8 +43,8 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 - Montar un servidor multimedia con [`JELLYFIN`](/MainFolder/info/jelly.md), capaz de gestionar bibliotecas audiovisuales y permitir la reproducción desde múltiples dispositivos
 
-- Facilitar el acceso al contenido desde cualquier lugar, mediante la combinación de [`DUCKDNS`](/MainFolder/info/ddns.md) y [`CADDY`](/MainFolder/info/caddy.md) con certificados TLS automáticos
-
+- Facilitar el acceso al contenido desde cualquier lugar, mediante el uso de [`DUCKDNS`](/MainFolder/info/ddns.md) para mantener actualizado el nombre de dominio frente a cambios en la IP pública
+  
 - Implementar el sistema sobre [`DOCKER`](/MainFolder/info/docker.md), permitiendo que todos los servicios estén contenedorizados y centralizados mediante [`DOCKER-COMPOSE.YML`](/MainFolder/info/docker.md)
 
 - Incorporar herramientas de monitorización como [`PROMETHEUS`](/MainFolder/info/pro.md) y [`GRAFANA`](/MainFolder/info/graf.md), para supervisar el estado del servidor y sus recursos
