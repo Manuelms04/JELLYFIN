@@ -83,7 +83,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
   <table>
     <tr>
       <td><a href="/MainFolder/info/jelly.md"> JELLYFIN </a></td>
-      <td><a href="/MainFolder/info/ddns.md"> UFW </a></td>
+      <td><a href="/MainFolder/info/ufw.md"> UFW </a></td>
       <td><a href="/MainFolder/info/ddns.md"> DUCKDNS </a></td>
       <td><a href="/MainFolder/info/docker.md"> DOCKER </a></td>
     </tr>
