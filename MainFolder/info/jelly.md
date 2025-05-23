@@ -39,9 +39,9 @@ Con esta infraestructura, se logra un **sistema multimedia completo, profesional
 
 ---
 
-##  Resumen técnico-académico
+##  Resumen Técnico
 
-> En este Trabajo de Fin de Grado, Jellyfin se implementa como servidor multimedia dentro de una máquina virtual Debian. Desplegado mediante Docker, permite gestionar y transmitir contenidos como series, películas o música, organizados automáticamente con metadatos obtenidos de Internet. 
+> En este Trabajo de Fin de Grado, Jellyfin se implementa como servidor multimedia dentro de una máquina virtual Debian. Desplegado mediante Docker, permite gestionar y transmitir contenidos como series, películas o música, organizados automáticamente con metadatos obtenidos de Internet
 
 > Se combina con Prometheus y Grafana para la monitorización y visualización de su rendimiento, y con DuckDNS para habilitar el acceso remoto seguro mediante DNS dinámico. Esta arquitectura reproduce un entorno real de producción, fomentando habilidades clave como virtualización, contenedores, servicios en red, autoalojamiento y gestión de sistemas
 
