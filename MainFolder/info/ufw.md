@@ -1,4 +1,4 @@
-<h1 align="center">UFW (Uncomplicated Firewall)</h1>
+<h1 align="center">UFW</h1>
 
 - UFW es una herramienta que facilita la configuración de un firewall en sistemas Linux, proporcionando una capa adicional de seguridad para el servidor multimedia y otros servicios desplegados en la máquina virtual.
 
@@ -24,6 +24,6 @@
 ---
 
 <p align="center">
-  <img src="/MainFolder/img/ufw.png" alt="UFW Firewall" width="750" height="200">
+  <img src="/MainFolder/img/ufw.jpg" alt="UFW Firewall" width="600" height="300">
 </p>
 
