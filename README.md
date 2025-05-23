@@ -176,7 +176,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
     - Uno de los principales retos fue lograr que el servidor Jellyfin fuera accesible desde el exterior sin comprometer la seguridad. La configuración del acceso remoto implicó comprender cómo gestionar dominios dinámicos con DuckDNS (DNS dinámico) configurar correctamente los puertos de redirección y garantizar el acceso al servidor sin comprometer la seguridad
       
 - `INTEGRACIÓN DE MÚLTIPLES SERVICIOS EN UN ÚNICO DOCKER-COMPOSE.YML`
-    - Coordinar diferentes servicios (Jellyfin, Prometheus, Grafana, Caddy, etc.) dentro del mismo archivo docker-compose.yml exigió gestionar correctamente volúmenes, redes internas, y dependencias entre contenedores. Fue clave mantener un orden claro para evitar conflictos
+    - Coordinar diferentes servicios (Jellyfin, Prometheus, Grafana, etc.) dentro del mismo archivo docker-compose.yml exigió gestionar correctamente volúmenes, redes internas, y dependencias entre contenedores. Fue clave mantener un orden claro para evitar conflictos
 
 - `PERMISOS DE CARPETAS COMPARTIDAS CON SAMBA`
     - Configurar Samba para que permitiera escritura desde otros equipos y a la vez mantener la seguridad del sistema fue complejo. Requirió ajustar permisos de usuario, máscaras de creación (create mask y directory mask) y validar el acceso desde diferentes sistemas operativos
