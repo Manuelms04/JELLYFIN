@@ -24,6 +24,6 @@
 ---
  
 <p align="center">
-  <img src="/MainFolder/img/ddns.png" alt="DuckDNS" width="750" height="200">
+  <img src="/MainFolder/img/duck.png" alt="DuckDNS" width="750" height="200">
 </p>
 
