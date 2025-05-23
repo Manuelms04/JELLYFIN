@@ -15,7 +15,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 *Para lograr esto, se han integrado varias tecnologías complementarias:*
 
-- [`UFW`](/MainFolder/info/ufw.md) para gestionar y configurar de forma sencilla el firewall que protege el acceso a los servicios desplegados en la máquina virtual
+- [`UFW`](/MainFolder/info/ufw.md) para controlar el firewall y proteger el acceso a los servicios del servidor
 
 - [`DOCKER`](/MainFolder/info/docker.md) y [`DOCKER COMPOSE`](/MainFolder/info/docker.md) para facilitar el despliegue y mantenimiento de los servicios
 
