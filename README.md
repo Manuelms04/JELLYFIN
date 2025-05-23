@@ -83,14 +83,15 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
   <table>
     <tr>
       <td><a href="/MainFolder/info/jelly.md"> JELLYFIN </a></td>
+      <td><a href="/MainFolder/info/ddns.md"> UFW </a></td>
       <td><a href="/MainFolder/info/docker.md"> DOCKER </a></td>
       <td><a href="/MainFolder/info/ddns.md"> DUCKDNS </a></td>
-      <td><a href="/MainFolder/info/pro.md"> PROMETHEUS </a></td>
     </tr>
     <tr>
       <td><a href="/MainFolder/info/graf.md"> GRAFANA </a></td>
       <td><a href="/MainFolder/info/tele.md"> TELEGRAM </a></td>
       <td><a href="/MainFolder/info/samba.md"> SAMBA </a></td>
+      <td><a href="/MainFolder/info/pro.md"> PROMETHEUS </a></td>
     </tr>
   </table>
 </div>
