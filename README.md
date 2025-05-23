@@ -123,7 +123,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
   - `8096` → Jellyfin
   - `9090` → Prometheus
   - `3000` → Grafana
-  - `80 y 443` → HTTPS *(Caddy)*
+  - `80 y 443` → Puertos para acceso web remoto 
  
 &nbsp;
 
@@ -174,8 +174,8 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 *Durante la realización del proyecto se presentaron varios desafíos que requirieron análisis, pruebas y adaptaciones para poder avanzar con éxito. A continuación, se detallan los principales:*
 
 - `CONFIGURACIÓN DE RED Y ACCESO EXTERNO SEGURO`
-    - Uno de los principales retos fue lograr que el servidor Jellyfin fuera accesible desde el exterior sin comprometer la seguridad. La combinación de DuckDNS (DNS dinámico) y Caddy (proxy inverso con HTTPS automático) implicó entender bien el funcionamiento de los certificados SSL, redireccionamientos y puertos necesarios
-
+    - Uno de los principales retos fue lograr que el servidor Jellyfin fuera accesible desde el exterior sin comprometer la seguridad. La configuración del acceso remoto implicó comprender cómo gestionar dominios dinámicos con DuckDNS (DNS dinámico) configurar correctamente los puertos de redirección y garantizar el acceso al servidor sin comprometer la seguridad
+      
 - `INTEGRACIÓN DE MÚLTIPLES SERVICIOS EN UN ÚNICO DOCKER-COMPOSE.YML`
     - Coordinar diferentes servicios (Jellyfin, Prometheus, Grafana, Caddy, etc.) dentro del mismo archivo docker-compose.yml exigió gestionar correctamente volúmenes, redes internas, y dependencias entre contenedores. Fue clave mantener un orden claro para evitar conflictos
 
