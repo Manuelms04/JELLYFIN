@@ -53,7 +53,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 - Permitir la carga de contenido desde la red local, gracias a la integración de [`SAMBA`](/MainFolder/info/samba.md) como servicio de compartición de carpetas
 
-- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con [`CRON`](https://crontab.cronhub.io/), y gestión básica de firewall con [`UFW`](https://es.linux-console.net/?p=5765)
+- Aplicar técnicas de automatización, como el uso de scripts para mantener actualizada la IP pública, tareas programadas con [`CRON`](https://crontab.cronhub.io/), y gestión básica de firewall con [`UFW`](/MainFolder/info/ufw.md)
 
 &nbsp;
 
