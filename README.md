@@ -146,8 +146,6 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 > [`📊 CONFIGURACIÓN DE GRAFANA 📊`](/MainFolder/info/6.md)
 
-> [`🔐 CONFIGURACIÓN DE HTTPS CON CADDY 🔐`](/MainFolder/info/7.md)
-
 > [`🔔 ALERTAS AUTOMÁTICAS POR TELEGRAM 🔔`](/MainFolder/info/8.md)
 
 > [`📁 INTEGRACIÓN DE SAMBA PARA ARCHIVOS MULTIMEDIA 📁`](/MainFolder/info/9.md)
