@@ -201,6 +201,12 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 <h2 align="center"> 🔗 Referencias 🔗 </h2>
 
+- [Genbyte](https://genbyte.blogspot.com/)    
+- [Jonatan Castro](https://www.jonatancastro.com/)
+- [Human Technology](https://github.com/Human-Technology)
+- [Duck DNS](https://www.duckdns.org/)
+- [Grafana](https://grafana.com/)
+- [Prometheus](https://prometheus.io/)
 
 - [METADATOS 1 (musica)](https://musicbrainz.org/)
 - [METADATOS 2 (musica)](https://www.theaudiodb.com/)
