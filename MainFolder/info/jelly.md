@@ -12,9 +12,6 @@
 - `ORGANIZACIÓN AUTOMÁTICA DEL CONTENIDO MULTIMEDIA`
     - Escanea las carpetas configuradas, descarga automáticamente carátulas, sinopsis, nombres de capítulos, metadatos, etc. Todo se presenta en una interfaz atractiva
 
-- `ACCESO DESDE RED LOCAL O REMOTAMENTE`
-    - Gracias a la integración con DuckDNS, es posible acceder al servidor desde cualquier parte del mundo mediante un dominio personalizado
-
 - `COMPATIBLE CON MÚLTIPLES DISPOSITIVOS`
     - Existen clientes para Android, iOS, navegadores, Smart TVs, y más. También puede reproducirse directamente desde cualquier navegador web
 
