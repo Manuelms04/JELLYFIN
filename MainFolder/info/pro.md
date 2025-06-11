@@ -19,7 +19,7 @@
     - Está diseñado para trabajar en entornos de contenedores como Docker, por lo que es muy fácil de configurar usando el archivo docker-compose.yml
 
 - `DETECCIÓN TEMPRANA DE PROBLEMAS`
-    - Gracias a los datos que recopila, se puede detectar comportamientos anómalos en tu servidor (como sobrecarga de CPU, falta de memoria o caídas de servicio) antes de que afecten a los usuarios
+    - Gracias a los datos que recopila, se puede detectar comportamientos anómalos en el servidor (como sobrecarga de CPU, falta de memoria o caídas de servicio) antes de que afecten a los usuarios
 
 ---
 
