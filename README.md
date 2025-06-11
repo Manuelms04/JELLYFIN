@@ -29,7 +29,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 &nbsp;
 
-> Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, automatización, contenedores y servicios en la nube
+> Este proyecto no solo cumple con los objetivos de integración y automatización de servicios, sino que también pone en práctica los conocimientos adquiridos durante el ciclo, abarcando áreas fundamentales como virtualización, redes, administración de sistemas, contenedores y servicios en la nube
 
 &nbsp;
 
