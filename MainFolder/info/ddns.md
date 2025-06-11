@@ -7,7 +7,7 @@
 ### *¿Por qué se usa DuckDNS en este trabajo?*
 
 - `ACCESO REMOTO SENCILLO AL SERVIDOR`
-    - DuckDNS permite que se pueda acceder al servidor Jellyfin (y también a Grafana o Prometheus si lo necesitas) desde fuera de tu red local, usando un nombre de dominio como mi-servidor.duckdns.org en lugar de memorizar una IP pública
+    - DuckDNS permite que se pueda acceder al servidor Jellyfin (y también a Grafana o Prometheus si lo necesitas) desde fuera de tu red local, usando un nombre de dominio como servidor.duckdns.org en lugar de memorizar una IP pública
 
 - `EVITA PROBLEMAS CON IPS DINÁMICAS`
     - Muchas conexiones domésticas (como las de Movistar, Orange, etc.) cambian la IP pública cada cierto tiempo. DuckDNS soluciona esto actualizando automáticamente el dominio cada vez que cambie la IP
