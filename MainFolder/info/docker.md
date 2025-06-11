@@ -1,6 +1,6 @@
 <h1 align="center">DOCKER</h1>
 
-- Docker ejecuta aplicaciones en contenedores para que funcionen igual en cualquier luga. Se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual
+- Docker ejecuta aplicaciones en contenedores para que funcionen igual en cualquier lugar. Se utiliza principalmente para simplificar la instalación, configuración y gestión de los servicios Jellyfin, Prometheus y Grafana dentro de la máquina virtual
 
 ---
 
