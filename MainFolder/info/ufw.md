@@ -15,7 +15,7 @@
 - `MEJORA DE LA SEGURIDAD EN ACCESO REMOTO`
     - Al combinarse con DuckDNS para acceso remoto, UFW asegura que solo las conexiones legítimas a los puertos 80, 443 u otros configurados estén abiertas, reduciendo el riesgo de ataques externos
 
-- `CONTROL GRANULAR DEL TRÁFICO`
+- `CONTROL DEL TRÁFICO`
     - Permite definir reglas específicas para distintos servicios y protocolos, asegurando que cada contenedor Docker o servicio del proyecto tenga solo los accesos estrictamente necesarios
 
 - `INTEGRACIÓN NATIVA CON SISTEMAS LINUX`
