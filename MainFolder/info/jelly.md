@@ -10,7 +10,7 @@
     - A diferencia de otras opciones como Plex o Emby, Jellyfin no requiere suscripciones ni cuentas. No tiene funciones bloqueadas ni recopila datos de los usuarios
 
 - `ORGANIZACIÓN AUTOMÁTICA DEL CONTENIDO MULTIMEDIA`
-    - Escanea las carpetas configuradas, descarga automáticamente carátulas, sinopsis, nombres de capítulos, metadatos, etc. Todo se presenta en una interfaz atractiva
+    - Escanea las carpetas configuradas, descarga automáticamente carátulas, nombres de capítulos, metadatos, etc. Todo se presenta en una interfaz atractiva
 
 - `COMPATIBLE CON MÚLTIPLES DISPOSITIVOS`
     - Existen clientes para Android, iOS, navegadores, Smart TVs, y más. También puede reproducirse directamente desde cualquier navegador web
