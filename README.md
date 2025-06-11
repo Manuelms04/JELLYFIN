@@ -174,7 +174,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
 
 *Durante la realización del proyecto se presentaron varios desafíos que requirieron análisis, pruebas y adaptaciones para poder avanzar con éxito. A continuación, se detallan los principales:*
 
-- `CONFIGURACIÓN DE RED Y ACCESO EXTERNO SEGURO`
+- `CONFIGURACIÓN DE RED Y ACCESO SEGURO`
     - Uno de los principales retos fue lograr que el servidor Jellyfin fuera accesible desde el exterior sin comprometer la seguridad. La configuración del acceso remoto implicó comprender cómo gestionar dominios dinámicos con DuckDNS (DNS dinámico) configurar correctamente los puertos de redirección y garantizar el acceso al servidor sin comprometer la seguridad
       
 - `INTEGRACIÓN DE MÚLTIPLES SERVICIOS EN UN ÚNICO DOCKER-COMPOSE.YML`
