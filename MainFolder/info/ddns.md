@@ -18,9 +18,6 @@
 - `INTEGRACIÓN SIMPLE CON LINUX`
     - Solo necesitas un pequeño script (duck.sh) y una entrada en el crontab para que el sistema actualice la dirección IP cada 5 minutos automáticamente. Esto garantiza que tu dominio siempre apunte a tu servidor
 
-- `IDEAL PARA PROYECTOS AUTOALOJADOS`
-    - Si se está montando servicios que deben ser accesibles remotamente, como un servidor multimedia (Jellyfin), usar DuckDNS permite compartir el contenido con otros sin complicaciones técnicas
-
 ---
  
 <p align="center">
