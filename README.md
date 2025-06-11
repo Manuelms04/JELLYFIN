@@ -181,7 +181,7 @@ En el presente Trabajo de Fin de Grado del ciclo de ASIR, he diseñado e impleme
     - Coordinar diferentes servicios (Jellyfin, Prometheus, Grafana, etc.) dentro del mismo archivo docker-compose.yml exigió gestionar correctamente volúmenes, redes internas, y dependencias entre contenedores. Fue clave mantener un orden claro para evitar conflictos
 
 - `PERMISOS DE CARPETAS COMPARTIDAS CON SAMBA`
-    - Configurar Samba para que permitiera escritura desde otros equipos y a la vez mantener la seguridad del sistema fue complejo. Requirió ajustar permisos de usuario, máscaras de creación (create mask y directory mask) y validar el acceso desde diferentes sistemas operativos
+    - Configurar Samba para que permitiera escritura desde otros equipos y a la vez mantener la seguridad del sistema fue complejo. Requirió ajustar permisos de usuario y validar el acceso desde diferentes sistemas operativos
     
 - `MONITORIZACIÓN PERSONALIZADA CON PROMETHEUS Y GRAFANA`
     - No fue suficiente con instalar Prometheus y Grafana, hubo que aprender a configurar correctamente los exporters, definir el archivo prometheus.yml y crear dashboards en Grafana que mostrarán información útil. También fue un desafío hacer que Grafana enviará alertas a Telegram correctamente
