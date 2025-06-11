@@ -28,22 +28,11 @@
 
 ##  Papel de Jellyfin en el Proyecto
 
-> Jellyfin es el núcleo del proyecto. Todo el entorno se ha construido para alojarlo, supervisarlo y permitir su acceso remoto de forma segura
+- En este Proyecto, `Jellyfin` se implementa como servidor multimedia dentro de una máquina virtual `Debian`. Desplegado mediante `Docker`, permite gestionar y transmitir contenidos como series, películas o música, organizados automáticamente con metadatos obtenidos de Internet
 
-- `Docker` → Despliegue rápido, aislado y reproducible
-- `Prometheus` → Recolección de métricas sobre su estado y uso
-- `Grafana` → Visualización de datos como uso de CPU, tráfico, etc
-- `DuckDNS` → Permite acceder a Jellyfin desde fuera de la red
+- Se combina con `Prometheus` y `Grafana` para la monitorización y visualización de su rendimiento, y con `DuckDNS` para habilitar el acceso remoto seguro mediante `DNS dinámico`. Esta arquitectura reproduce un entorno real de producción, fomentando habilidades clave como virtualización, contenedores, servicios en red, autoalojamiento y gestión de sistemas
 
-Con esta infraestructura, se logra un **sistema multimedia completo, profesional y autoalojado**, ideal como entorno de aprendizaje técnico
-
----
-
-##  Resumen Técnico
-
-> En este Trabajo de Fin de Grado, Jellyfin se implementa como servidor multimedia dentro de una máquina virtual Debian. Desplegado mediante Docker, permite gestionar y transmitir contenidos como series, películas o música, organizados automáticamente con metadatos obtenidos de Internet
-
-> Se combina con Prometheus y Grafana para la monitorización y visualización de su rendimiento, y con DuckDNS para habilitar el acceso remoto seguro mediante DNS dinámico. Esta arquitectura reproduce un entorno real de producción, fomentando habilidades clave como virtualización, contenedores, servicios en red, autoalojamiento y gestión de sistemas
+> Con esta infraestructura, se logra un **sistema multimedia completo, profesional y autoalojado**, ideal como entorno de aprendizaje técnico 
 
 ---
 
